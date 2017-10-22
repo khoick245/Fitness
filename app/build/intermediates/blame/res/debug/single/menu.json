@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/menu/activity_user_menu.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/menu/activity_user_menu.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/menu/activity_user_drawer.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/menu/activity_user_drawer.xml"
+    }
+]
