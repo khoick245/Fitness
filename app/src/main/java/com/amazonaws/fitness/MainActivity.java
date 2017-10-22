@@ -36,6 +36,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.amazonaws.fitness.fitnessjournal.Body;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoDevice;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession;
@@ -364,7 +365,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void launchUser() {
-        Intent userActivity = new Intent(this, UserActivity.class);
+        //Intent userActivity = new Intent(this, UserActivity.class);
+        Intent userActivity = new Intent(this, Body.class);
         userActivity.putExtra("name", username);
         startActivityForResult(userActivity, 4);
     }

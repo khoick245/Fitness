@@ -10,5 +10,9 @@
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/menu/activity_user_drawer.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/menu/activity_user_drawer.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/menu/menu_body.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/menu/menu_body.xml"
     }
 ]

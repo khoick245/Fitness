@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/bodyback"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/trapButton"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="36dp"
+        android:text="Traps"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/latButton"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="22dp"
+        android:text="Lats"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/trapButton"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:text="Back"
+        android:layout_marginStart="18dp"
+        android:layout_below="@+id/latButton"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/gluteButton"
+        android:layout_width="76dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="65dp"
+        android:text="Glutes"
+        android:layout_below="@+id/backButton"
+        android:layout_alignStart="@+id/latButton" />
+
+    <TextView
+        android:id="@+id/turnFront"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Turn Around"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

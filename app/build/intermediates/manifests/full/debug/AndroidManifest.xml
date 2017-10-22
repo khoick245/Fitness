@@ -65,6 +65,26 @@
             android:name="com.amazonaws.fitness.NewPassword"
             android:label="@string/title_activity_new_password"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.amazonaws.fitness.fitnessjournal.Body"
+            android:label="Body"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.amazonaws.fitness.fitnessjournal.body_back"
+            android:label="Body Back"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.amazonaws.fitness.fitnessjournal.ChestActivity"
+            android:label="Chest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.amazonaws.fitness.fitnessjournal.benchpress"
+            android:label="Body"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.amazonaws.fitness.fitnessjournal.dumbbellpress"
+            android:label="Body"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
