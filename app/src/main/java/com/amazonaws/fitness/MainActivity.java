@@ -365,10 +365,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void launchUser() {
-        //Intent userActivity = new Intent(this, UserActivity.class);
-        Intent userActivity = new Intent(this, Body.class);
+        Intent userActivity = new Intent(this, UserActivity.class);
+        //Intent userActivity = new Intent(this, Body.class);
         userActivity.putExtra("name", username);
         startActivityForResult(userActivity, 4);
+        finish();
     }
 
     private void findCurrent() {

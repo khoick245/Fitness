@@ -3,7 +3,6 @@ package com.amazonaws.fitness.fitnessjournal;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,6 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.amazonaws.fitness.ChestActivity;
 import com.amazonaws.fitness.R;
 
 import java.util.concurrent.TimeUnit;
@@ -23,8 +23,8 @@ public class Body extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.body);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
 
         TextView t = (TextView) findViewById(R.id.turnBehind);
         t.setOnClickListener(new View.OnClickListener() {
@@ -41,7 +41,7 @@ public class Body extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                new ChestActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
+                //new ChestActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
                 try {
                     TimeUnit.SECONDS.sleep(1);
                 } catch (InterruptedException e) {
@@ -56,7 +56,7 @@ public class Body extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                new ChestActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
+                //new ChestActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
                 Intent intent = new Intent(Body.this, ChestActivity.class);
                 startActivity(intent);
             }

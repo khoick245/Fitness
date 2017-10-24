@@ -319,7 +319,7 @@
     <string name="app_main_desc">A sample app to showcase Cognito Identity and the SDK for Android.</string>
     <string name="app_main_screen">Sign in</string>
     <string name="app_main_screen_title">Cognito Identity</string>
-    <string name="app_name">FitnessJournal</string>
+    <string name="app_name">Fitness</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="more_info">This is a sample app to showcase Cognito Identity and the SDK for Android.</string>

@@ -74,7 +74,7 @@
             android:label="Body Back"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.fitnessjournal.ChestActivity"
+            android:name="com.amazonaws.fitness.ChestActivity"
             android:label="Chest"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

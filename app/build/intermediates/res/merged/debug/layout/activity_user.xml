@@ -38,7 +38,9 @@
             android:layout_height="match_parent"/>
 
         <!-- Set the Main content -->
-        <include layout="@layout/content_user" />
+        <include layout="@layout/content_user"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
 
     <android.support.design.widget.NavigationView

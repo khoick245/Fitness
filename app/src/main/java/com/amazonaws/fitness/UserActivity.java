@@ -33,12 +33,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.amazonaws.fitness.fitnessjournal.Body;
+import com.amazonaws.fitness.fitnessjournal.body_back;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoDevice;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserAttributes;
@@ -48,10 +51,12 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.UpdateAttributesHandler;
-import com.amazonaws.fitness.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import static com.amazonaws.fitness.fitnessjournal.Body.urlString;
 
 public class UserActivity extends AppCompatActivity {
     private final String TAG="MainActivity";
@@ -79,13 +84,14 @@ public class UserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
+        //setContentView(R.layout.body);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         // Set toolbar for this screen
         toolbar = (Toolbar) findViewById(R.id.main_toolbar);
         toolbar.setTitle("");
         TextView main_title = (TextView) findViewById(R.id.main_toolbar_title);
-        main_title.setText("Account");
+        main_title.setText("Body");
         setSupportActionBar(toolbar);
 
         // Set navigation drawer for this screen
@@ -100,160 +106,42 @@ public class UserActivity extends AppCompatActivity {
         View navigationHeader = nDrawer.getHeaderView(0);
         TextView navHeaderSubTitle = (TextView) navigationHeader.findViewById(R.id.textViewNavUserSub);
         navHeaderSubTitle.setText(username);
-    }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.activity_user_menu, menu);
-        return true;
-    }
+        TextView t = (TextView) findViewById(R.id.turnBehind);
+        t.setOnClickListener(new View.OnClickListener() {
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Find which menu item was selected
-        int menuItem = item.getItemId();
-
-        // Do the task
-        if(menuItem == R.id.user_update_attribute) {
-            //updateAllAttributes();
-            showWaitDialog("Updating...");
-            getDetails();
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public void onBackPressed() {
-        exit();
-    }
-
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        switch (requestCode) {
-            case 20:
-                // Settings
-                if(resultCode == RESULT_OK) {
-                    boolean refresh = data.getBooleanExtra("refresh", true);
-                    if (refresh) {
-                        showAttributes();
-                    }
-                }
-                break;
-            case 21:
-                // Verify attributes
-                if(resultCode == RESULT_OK) {
-                    boolean refresh = data.getBooleanExtra("refresh", true);
-                    if (refresh) {
-                        showAttributes();
-                    }
-                }
-                break;
-            case 22:
-                // Add attributes
-                if(resultCode == RESULT_OK) {
-                    boolean refresh = data.getBooleanExtra("refresh", true);
-                    if (refresh) {
-                        showAttributes();
-                    }
-                }
-                break;
-        }
-    }
-
-    // Handle when the a navigation item is selected
-    private void setNavDrawer() {
-        nDrawer.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
-            public boolean onNavigationItemSelected(MenuItem item) {
-                performAction(item);
-                return true;
+            public void onClick(View v) {
+                Intent intent = new Intent(UserActivity.this, body_back.class);
+                startActivity(intent);
             }
         });
-    }
 
-    // Perform the action for the selected navigation item
-    private void performAction(MenuItem item) {
-        // Close the navigation drawer
-        mDrawer.closeDrawers();
+        Button sb = (Button) findViewById(R.id.shoulderButton);
+        sb.setOnClickListener(new View.OnClickListener() {
 
-        // Find which item was selected
-        switch(item.getItemId()) {
-//            case R.id.nav_user_add_attribute:
-//                // Add a new attribute
-//                addAttribute();
-//                break;
-
-            case R.id.nav_user_change_password:
-                // Change password
-                changePassword();
-                break;
-//            case R.id.nav_user_verify_attribute:
-//                // Confirm new user
-//                // confirmUser();
-//                attributesVerification();
-//                break;
-//            case R.id.nav_user_settings:
-//                // Show user settings
-//                showSettings();
-//                break;
-            case R.id.nav_user_sign_out:
-                // Sign out from this account
-                signOut();
-                break;
-        }
-    }
-
-    // Get user details from CIP service
-    private void getDetails() {
-        AppHelper.getPool().getUser(username).getDetailsInBackground(detailsHandler);
-    }
-
-    // Show user attributes from CIP service
-    private void showAttributes() {
-        final UserAttributesAdapter attributesAdapter = new UserAttributesAdapter(getApplicationContext());
-        final ListView attributesListView;
-        attributesListView = (ListView) findViewById(R.id.listViewUserAttributes);
-        attributesListView.setAdapter(attributesAdapter);
-        attributesList = attributesListView;
-
-        attributesListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                TextView data = (TextView) view.findViewById(R.id.editTextUserDetailInput);
-                String attributeType = data.getHint().toString();
-                String attributeValue = data.getText().toString();
-                showUserDetail(attributeType, attributeValue);
+            public void onClick(View v) {
+                new ChestActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
+                try {
+                    TimeUnit.SECONDS.sleep(1);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                Toast.makeText(UserActivity.this, urlString, Toast.LENGTH_SHORT).show();
             }
         });
-    }
 
-    // Update attributes
-    private void updateAttribute(String attributeType, String attributeValue) {
+        Button tt = (Button) findViewById(R.id.chestButton);
+        tt.setOnClickListener(new View.OnClickListener() {
 
-        if(attributeType == null || attributeType.length() < 1) {
-            return;
-        }
-        CognitoUserAttributes updatedUserAttributes = new CognitoUserAttributes();
-        updatedUserAttributes.addAttribute(attributeType, attributeValue);
-        Toast.makeText(getApplicationContext(), attributeType + ": " + attributeValue, Toast.LENGTH_LONG);
-        showWaitDialog("Updating...");
-        AppHelper.getPool().getUser(AppHelper.getCurrUser()).updateAttributesInBackground(updatedUserAttributes, updateHandler);
-    }
-
-    // Show user MFA Settings
-    private void showSettings() {
-        Intent userSettingsActivity = new Intent(this,SettingsActivity.class);
-        startActivityForResult(userSettingsActivity, 20);
-    }
-
-    // Add a new attribute
-    private void addAttribute() {
-        Intent addAttrbutesActivity = new Intent(this,AddAttributeActivity.class);
-        startActivityForResult(addAttrbutesActivity, 22);
+            @Override
+            public void onClick(View v) {
+                //new ChestActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
+                Intent intent = new Intent(UserActivity.this, ChestActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     // Delete attribute
@@ -276,7 +164,6 @@ public class UserActivity extends AppCompatActivity {
         startActivityForResult(attrbutesActivity, 21);
     }
 
-
     // Sign out user
     private void signOut() {
         user.signOut();
@@ -291,6 +178,7 @@ public class UserActivity extends AppCompatActivity {
         user = AppHelper.getPool().getUser(username);
         getDetails();
     }
+
 
     GetDetailsHandler detailsHandler = new GetDetailsHandler() {
         @Override
@@ -507,4 +395,160 @@ public class UserActivity extends AppCompatActivity {
         setResult(RESULT_OK, intent);
         finish();
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.activity_user_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Find which menu item was selected
+        int menuItem = item.getItemId();
+
+        // Do the task
+//        if(menuItem == R.id.user_update_attribute) {
+//            //updateAllAttributes();
+//            showWaitDialog("Updating...");
+//            getDetails();
+//            return true;
+//        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed() {
+        exit();
+    }
+
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        switch (requestCode) {
+            case 20:
+                // Settings
+                if(resultCode == RESULT_OK) {
+                    boolean refresh = data.getBooleanExtra("refresh", true);
+                    if (refresh) {
+                        showAttributes();
+                    }
+                }
+                break;
+            case 21:
+                // Verify attributes
+                if(resultCode == RESULT_OK) {
+                    boolean refresh = data.getBooleanExtra("refresh", true);
+                    if (refresh) {
+                        showAttributes();
+                    }
+                }
+                break;
+            case 22:
+                // Add attributes
+                if(resultCode == RESULT_OK) {
+                    boolean refresh = data.getBooleanExtra("refresh", true);
+                    if (refresh) {
+                        showAttributes();
+                    }
+                }
+                break;
+        }
+    }
+
+    // Handle when the a navigation item is selected
+    private void setNavDrawer() {
+        nDrawer.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem item) {
+                performAction(item);
+                return true;
+            }
+        });
+    }
+
+    // Perform the action for the selected navigation item
+    private void performAction(MenuItem item) {
+        // Close the navigation drawer
+        mDrawer.closeDrawers();
+
+        // Find which item was selected
+        switch(item.getItemId()) {
+//            case R.id.nav_user_add_attribute:
+//                // Add a new attribute
+//                addAttribute();
+//                break;
+
+            case R.id.nav_user_change_password:
+                // Change password
+                changePassword();
+                break;
+//            case R.id.nav_user_verify_attribute:
+//                // Confirm new user
+//                // confirmUser();
+//                attributesVerification();
+//                break;
+//            case R.id.nav_user_settings:
+//                // Show user settings
+//                showSettings();
+//                break;
+            case R.id.nav_user_sign_out:
+                // Sign out from this account
+                signOut();
+                break;
+        }
+    }
+
+    // Get user details from CIP service
+    private void getDetails() {
+        AppHelper.getPool().getUser(username).getDetailsInBackground(detailsHandler);
+    }
+
+    // Show user attributes from CIP service
+    private void showAttributes() {
+        final UserAttributesAdapter attributesAdapter = new UserAttributesAdapter(getApplicationContext());
+        final ListView attributesListView;
+//        //attributesListView = (ListView) findViewById(R.id.listViewUserAttributes);
+//        attributesListView.setAdapter(attributesAdapter);
+//        attributesList = attributesListView;
+//
+//        attributesListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                TextView data = (TextView) view.findViewById(R.id.editTextUserDetailInput);
+//                String attributeType = data.getHint().toString();
+//                String attributeValue = data.getText().toString();
+//                showUserDetail(attributeType, attributeValue);
+//            }
+//        });
+    }
+
+    // Update attributes
+    private void updateAttribute(String attributeType, String attributeValue) {
+
+        if(attributeType == null || attributeType.length() < 1) {
+            return;
+        }
+        CognitoUserAttributes updatedUserAttributes = new CognitoUserAttributes();
+        updatedUserAttributes.addAttribute(attributeType, attributeValue);
+        Toast.makeText(getApplicationContext(), attributeType + ": " + attributeValue, Toast.LENGTH_LONG);
+        showWaitDialog("Updating...");
+        AppHelper.getPool().getUser(AppHelper.getCurrUser()).updateAttributesInBackground(updatedUserAttributes, updateHandler);
+    }
+
+    // Show user MFA Settings
+    private void showSettings() {
+        Intent userSettingsActivity = new Intent(this,SettingsActivity.class);
+        startActivityForResult(userSettingsActivity, 20);
+    }
+
+    // Add a new attribute
+    private void addAttribute() {
+        Intent addAttrbutesActivity = new Intent(this,AddAttributeActivity.class);
+        startActivityForResult(addAttrbutesActivity, 22);
+    }
+
+
 }
