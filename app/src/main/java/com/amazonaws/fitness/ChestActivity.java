@@ -112,10 +112,10 @@ public class ChestActivity extends AppCompatActivity {
         try {
 
            new JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
-            TimeUnit.SECONDS.sleep(3);
-//            while (urlConnection == null){
-//                ProgressDialog.show(this, "Loading", "Wait while loading...");
-//            }
+            //TimeUnit.SECONDS.sleep(3);
+            while (urlConnection == null){
+                //ProgressDialog.show(this, "Loading", "Wait while loading...");
+            }
 
             final JSONObject jsonObject = new JSONObject(urlConnection);
             final JSONArray arr = jsonObject.getJSONArray("bodyPartInfors");
