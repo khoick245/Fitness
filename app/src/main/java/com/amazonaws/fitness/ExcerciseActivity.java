@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -30,6 +31,9 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.UpdateAttributesHandler;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,6 +64,26 @@ public class ExcerciseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        JSONObject jsonExercise = null;
+        String video = null;
+        String equipment = null;
+        String level = null;
+        String rate = null;
+        String type = null;
+
+        try {
+            String objExercise = getIntent().getStringExtra("exercise");
+            jsonExercise = new JSONObject(objExercise);
+            video = jsonExercise.getString("video");
+            equipment = jsonExercise.getString("equipment");
+            level = jsonExercise.getString("level");
+            rate = jsonExercise.getString("rate");
+            type = jsonExercise.getString("type");
+        }catch (JSONException e){
+            e.printStackTrace();
+        }
+
         setContentView(R.layout.activity_excercise);
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -68,7 +92,7 @@ public class ExcerciseActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.main_toolbar);
         toolbar.setTitle("");
         TextView main_title = (TextView) findViewById(R.id.main_toolbar_title);
-        main_title.setText("Exercise");
+        main_title.setText("Excercise");
         setSupportActionBar(toolbar);
 
         // Set navigation drawer for this screen
@@ -83,6 +107,21 @@ public class ExcerciseActivity extends AppCompatActivity {
         View navigationHeader = nDrawer.getHeaderView(0);
         TextView navHeaderSubTitle = (TextView) navigationHeader.findViewById(R.id.textViewNavUserSub);
         navHeaderSubTitle.setText(username);
+
+        String url =
+                "https://www.youtube.com/embed/Vc63DPUoA40";
+        WebView view =(WebView) this.findViewById(R.id.webView);
+        view.getSettings().setJavaScriptEnabled(true);
+        view.loadUrl(url);
+
+        TextView txtEquipment = (TextView) this.findViewById(R.id.txtEquipment);
+        TextView txtLevel = (TextView) this.findViewById(R.id.txtLevel);
+        TextView txtRate = (TextView) this.findViewById(R.id.txtRate);
+        TextView txtType = (TextView) this.findViewById(R.id.txtType);
+        txtEquipment.setText(equipment);
+        txtLevel.setText(level);
+        txtRate.setText(rate);
+        txtType.setText(type);
     }
 
 

@@ -10,59 +10,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4349bcb-d3e6-4799-829c-23a980603cf3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ExcerciseActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_excercise.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ChestActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ChestActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ChestActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ChestActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/FirstTimeLoginAttributesDisplayAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/FirstTimeLoginAttributesDisplayAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ForgotPasswordActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ForgotPasswordActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ForgotPasswordActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ForgotPasswordActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ForgotPasswordActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ForgotPasswordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MFAActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MFAActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MFAActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MFAActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$integer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$menu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$mipmap.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/UserActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/UserActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/UserAttributesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/UserAttributesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/VerifyActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/VerifyActivity$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/VerifyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/VerifyActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/Body.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/Body.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/body_back.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/body_back.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/dumbbellpress.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/dumbbellpress.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_5a6b382526765c488a5361a9257edccaccb99885.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_5a6b382526765c488a5361a9257edccaccb99885.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/amazonaws/fitness/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/amazonaws/fitness/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/main_tool_bar.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/main_tool_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_exercise.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_exercise.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ChestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ChestActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/main_tool_bar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_tool_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ExcerciseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ExcerciseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_exercise.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_exercise.xml" />
     </list>
     <ignored path="Fitness.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,7 +117,7 @@
       <file leaf-file-name="UserActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/UserActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="-345">
               <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
               <folding>
                 <element signature="method#deleteAttribute#0;class#UserActivity#0" expanded="false" />
@@ -159,34 +178,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_user.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="46" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChestActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChestActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ChestActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            <state relative-caret-position="-1719">
+              <caret line="152" column="49" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#deleteAttribute#0;class#ChestActivity#0" expanded="false" />
@@ -224,8 +220,8 @@
       <file leaf-file-name="ExcerciseActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ExcerciseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="123" column="28" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#deleteAttribute#0;class#ExcerciseActivity#0" expanded="false" />
@@ -233,13 +229,13 @@
                 <element signature="method#attributesVerification#0;class#ExcerciseActivity#0" expanded="false" />
                 <element signature="method#signOut#0;class#ExcerciseActivity#0" expanded="false" />
                 <element signature="method#init#0;class#ExcerciseActivity#0" expanded="false" />
-                <element signature="class#4600:5180" expanded="false" />
+                <element signature="class#6034:6614" expanded="false" />
                 <element signature="method#handleTrustedDevice#0;class#ExcerciseActivity#0" expanded="false" />
                 <element signature="method#updateDeviceStatus#0;class#ExcerciseActivity#0" expanded="false" />
                 <element signature="method#trustedDeviceDialog#0;class#ExcerciseActivity#0" expanded="false" />
-                <element signature="class#7128:7749" expanded="false" />
-                <element signature="class#7791:8418" expanded="false" />
-                <element signature="class#8467:8839" expanded="false" />
+                <element signature="class#8562:9183" expanded="false" />
+                <element signature="class#9225:9852" expanded="false" />
+                <element signature="class#9901:10273" expanded="false" />
                 <element signature="method#showWaitDialog#0;class#ExcerciseActivity#0" expanded="false" />
                 <element signature="method#showDialogMessage#0;class#ExcerciseActivity#0" expanded="false" />
                 <element signature="method#closeWaitDialog#0;class#ExcerciseActivity#0" expanded="false" />
@@ -259,7 +255,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -274,6 +270,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dumbbellpress.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/fitnessjournal/dumbbellpress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="26" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_exercise.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_exercise.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -1903,12 +1922,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chest_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/fitnessjournal/dumbbellpress.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_chest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_exercise.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_excercise.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ChestActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ExcerciseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main_tool_bar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_exercise.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ExcerciseActivity.java" />
       </list>
     </option>
   </component>
@@ -2046,6 +2065,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="fitness" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fitness" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitness" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnessjournal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2420,7 +2461,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29256082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2655,16 +2696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/fitnessjournal/dumbbellpress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/fitnessjournal/HttpURLConnectionExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -2734,17 +2765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_exercise.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -2834,9 +2854,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="46" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chest_activity.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main_tool_bar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/UserActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="-345">
           <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
           <folding>
             <element signature="method#deleteAttribute#0;class#UserActivity#0" expanded="false" />
@@ -2870,28 +2939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="46" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chest_activity.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_excercise.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -2903,21 +2950,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main_tool_bar.xml">
-      <provider editor-type-id="android-designer2">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_exercise.xml">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/fitnessjournal/dumbbellpress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="26" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ExcerciseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="123" column="28" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#deleteAttribute#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#changePassword#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#attributesVerification#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#signOut#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#init#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="class#6034:6614" expanded="false" />
+            <element signature="method#handleTrustedDevice#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#updateDeviceStatus#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#trustedDeviceDialog#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="class#8562:9183" expanded="false" />
+            <element signature="class#9225:9852" expanded="false" />
+            <element signature="class#9901:10273" expanded="false" />
+            <element signature="method#showWaitDialog#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#showDialogMessage#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#closeWaitDialog#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#exit#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#setNavDrawer#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#performAction#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#getDetails#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#showAttributes#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#updateAttribute#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#showSettings#0;class#ExcerciseActivity#0" expanded="false" />
+            <element signature="method#addAttribute#0;class#ExcerciseActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ChestActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="-1719">
+          <caret line="152" column="49" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#deleteAttribute#0;class#ChestActivity#0" expanded="false" />
@@ -2948,58 +3039,6 @@
             <element signature="method#showSettings#0;class#ChestActivity#0" expanded="false" />
             <element signature="method#addAttribute#0;class#ChestActivity#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/ExcerciseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#deleteAttribute#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#changePassword#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#attributesVerification#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#signOut#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#init#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="class#4600:5180" expanded="false" />
-            <element signature="method#handleTrustedDevice#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#updateDeviceStatus#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#trustedDeviceDialog#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="class#7128:7749" expanded="false" />
-            <element signature="class#7791:8418" expanded="false" />
-            <element signature="class#8467:8839" expanded="false" />
-            <element signature="method#showWaitDialog#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#showDialogMessage#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#closeWaitDialog#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#exit#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#onCreateOptionsMenu#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#setNavDrawer#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#performAction#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#getDetails#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#showAttributes#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#updateAttribute#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#showSettings#0;class#ExcerciseActivity#0" expanded="false" />
-            <element signature="method#addAttribute#0;class#ExcerciseActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
