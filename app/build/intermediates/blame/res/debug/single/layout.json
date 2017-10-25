@@ -120,6 +120,10 @@
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_tab_text.xml"
     },
     {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/activity_body_activity.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/activity_body_activity.xml"
+    },
+    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/activity_dumbbellpress.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/activity_dumbbellpress.xml"
     },
@@ -262,10 +266,6 @@
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/activity_chest_activity.xml",
-        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/activity_chest_activity.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",

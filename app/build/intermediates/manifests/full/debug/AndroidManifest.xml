@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.amazonaws.fitness.UserActivity"
+            android:name="com.amazonaws.fitness.BodyActivity"
             android:label="@string/title_activity_user"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -74,7 +74,7 @@
             android:label="Body Back"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.ChestActivity"
+            android:name="com.amazonaws.fitness.BodyPartActivity"
             android:label="Chest"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

@@ -36,7 +36,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.amazonaws.fitness.fitnessjournal.Body;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoDevice;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession;
@@ -48,16 +47,9 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.continuations.Mult
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.continuations.NewPasswordContinuation;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.AuthenticationHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.ForgotPasswordHandler;
-import com.amazonaws.fitness.R;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Map;
-
-import static com.amazonaws.fitness.ChestActivity.urlConnection;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG="MainActivity";
@@ -373,7 +365,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void launchUser() {
-        Intent userActivity = new Intent(this, UserActivity.class);
+        Intent userActivity = new Intent(this, BodyActivity.class);
         //Intent userActivity = new Intent(this, Body.class);
         userActivity.putExtra("name", username);
         startActivityForResult(userActivity, 4);

@@ -32,7 +32,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -40,7 +39,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.amazonaws.fitness.fitnessjournal.Body;
 import com.amazonaws.fitness.fitnessjournal.body_back;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoDevice;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
@@ -58,7 +56,7 @@ import java.util.concurrent.TimeUnit;
 
 import static com.amazonaws.fitness.fitnessjournal.Body.urlString;
 
-public class UserActivity extends AppCompatActivity {
+public class BodyActivity extends AppCompatActivity {
     private final String TAG="MainActivity";
 
     private NavigationView nDrawer;
@@ -112,7 +110,7 @@ public class UserActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(UserActivity.this, body_back.class);
+                Intent intent = new Intent(BodyActivity.this, body_back.class);
                 startActivity(intent);
             }
         });
@@ -122,13 +120,13 @@ public class UserActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                //new ChestActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
+                //new BodyPartActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
                 try {
                     TimeUnit.SECONDS.sleep(1);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                Toast.makeText(UserActivity.this, urlString, Toast.LENGTH_SHORT).show();
+                Toast.makeText(BodyActivity.this, urlString, Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -137,8 +135,9 @@ public class UserActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                //new ChestActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
-                Intent intent = new Intent(UserActivity.this, ChestActivity.class);
+                //new BodyPartActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
+                Intent intent = new Intent(BodyActivity.this, BodyPartActivity.class);
+                intent.putExtra("bodypart", "Chest");
                 startActivity(intent);
             }
         });
@@ -213,7 +212,7 @@ public class UserActivity extends AppCompatActivity {
     private void trustedDeviceDialog(final CognitoDevice newDevice) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Remember this device?");
-        //final EditText input = new EditText(UserActivity.this);
+        //final EditText input = new EditText(BodyActivity.this);
 
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
@@ -308,7 +307,7 @@ public class UserActivity extends AppCompatActivity {
     private void showUserDetail(final String attributeType, final String attributeValue) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(attributeType);
-        final EditText input = new EditText(UserActivity.this);
+        final EditText input = new EditText(BodyActivity.this);
         input.setText(attributeValue);
 
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(

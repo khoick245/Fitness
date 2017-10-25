@@ -2434,7 +2434,7 @@ containing a value of this type.
         public static final int center_horizontal=0x7f0c001f;
         public static final int center_vertical=0x7f0c0020;
         public static final int change_pass_button=0x7f0c00b0;
-        public static final int change_password_toolbar_title=0x7f0c0070;
+        public static final int change_password_toolbar_title=0x7f0c0072;
         public static final int checkbox=0x7f0c0052;
         public static final int chestButton=0x7f0c0086;
         public static final int chestpress=0x7f0c0073;
@@ -2541,7 +2541,7 @@ containing a value of this type.
         public static final int nav_user_change_password=0x7f0c015c;
         public static final int nav_user_sign_out=0x7f0c015e;
         public static final int nav_userend=0x7f0c0160;
-        public static final int nav_view=0x7f0c0072;
+        public static final int nav_view=0x7f0c0070;
         public static final int navigation_header_container=0x7f0c0130;
         public static final int never=0x7f0c0036;
         public static final int newPassMessage=0x7f0c00e6;
@@ -2717,7 +2717,7 @@ containing a value of this type.
         public static final int title=0x7f0c0043;
         public static final int title_template=0x7f0c0048;
         public static final int toolbar=0x7f0c006e;
-        public static final int toolbarChangePass=0x7f0c006f;
+        public static final int toolbarChangePass=0x7f0c0071;
         public static final int toolbar_AboutApp=0x7f0c0069;
         public static final int toolbar_Devices=0x7f0c0075;
         public static final int toolbar_NewPassword=0x7f0c007d;
@@ -2739,7 +2739,7 @@ containing a value of this type.
         public static final int txtType=0x7f0c00c0;
         public static final int up=0x7f0c0009;
         public static final int useLogo=0x7f0c0014;
-        public static final int user_drawer_layout=0x7f0c0071;
+        public static final int user_drawer_layout=0x7f0c006f;
         public static final int verify_toolbar_title=0x7f0c0085;
         public static final int view_offset_helper=0x7f0c000a;
         public static final int webView=0x7f0c0078;
@@ -2783,8 +2783,8 @@ containing a value of this type.
         public static final int activity_about_app=0x7f040019;
         public static final int activity_add_attribute=0x7f04001a;
         public static final int activity_body=0x7f04001b;
-        public static final int activity_change_password=0x7f04001c;
-        public static final int activity_chest_activity=0x7f04001d;
+        public static final int activity_body_activity=0x7f04001c;
+        public static final int activity_change_password=0x7f04001d;
         public static final int activity_chest_menu=0x7f04001e;
         public static final int activity_device_settings=0x7f04001f;
         public static final int activity_dumbbellpress=0x7f040020;

@@ -685,7 +685,7 @@ int id center 0x7f0c001e
 int id center_horizontal 0x7f0c001f
 int id center_vertical 0x7f0c0020
 int id change_pass_button 0x7f0c00b0
-int id change_password_toolbar_title 0x7f0c0070
+int id change_password_toolbar_title 0x7f0c0072
 int id checkbox 0x7f0c0052
 int id chestButton 0x7f0c0086
 int id chestpress 0x7f0c0073
@@ -792,7 +792,7 @@ int id nav_sign_up_confirm 0x7f0c0154
 int id nav_user_change_password 0x7f0c015c
 int id nav_user_sign_out 0x7f0c015e
 int id nav_userend 0x7f0c0160
-int id nav_view 0x7f0c0072
+int id nav_view 0x7f0c0070
 int id navigation_header_container 0x7f0c0130
 int id never 0x7f0c0036
 int id newPassMessage 0x7f0c00e6
@@ -968,7 +968,7 @@ int id time 0x7f0c0147
 int id title 0x7f0c0043
 int id title_template 0x7f0c0048
 int id toolbar 0x7f0c006e
-int id toolbarChangePass 0x7f0c006f
+int id toolbarChangePass 0x7f0c0071
 int id toolbar_AboutApp 0x7f0c0069
 int id toolbar_Devices 0x7f0c0075
 int id toolbar_NewPassword 0x7f0c007d
@@ -990,7 +990,7 @@ int id txtRate 0x7f0c00bf
 int id txtType 0x7f0c00c0
 int id up 0x7f0c0009
 int id useLogo 0x7f0c0014
-int id user_drawer_layout 0x7f0c0071
+int id user_drawer_layout 0x7f0c006f
 int id verify_toolbar_title 0x7f0c0085
 int id view_offset_helper 0x7f0c000a
 int id webView 0x7f0c0078
@@ -1030,8 +1030,8 @@ int layout abc_select_dialog_material 0x7f040018
 int layout activity_about_app 0x7f040019
 int layout activity_add_attribute 0x7f04001a
 int layout activity_body 0x7f04001b
-int layout activity_change_password 0x7f04001c
-int layout activity_chest_activity 0x7f04001d
+int layout activity_body_activity 0x7f04001c
+int layout activity_change_password 0x7f04001d
 int layout activity_chest_menu 0x7f04001e
 int layout activity_device_settings 0x7f04001f
 int layout activity_dumbbellpress 0x7f040020

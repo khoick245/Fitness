@@ -1,6 +1,5 @@
 package com.amazonaws.fitness;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -50,9 +49,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class ChestActivity extends AppCompatActivity {
+public class BodyPartActivity extends AppCompatActivity {
     public static String urlConnection = null;
     private final String TAG="Chest";
 
@@ -78,7 +76,11 @@ public class ChestActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chest_activity);
+
+        Intent intent= getIntent();
+        String bodypart = intent.getStringExtra("bodypart");
+
+        setContentView(R.layout.activity_body_activity);
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
@@ -86,7 +88,7 @@ public class ChestActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.main_toolbar);
         toolbar.setTitle("");
         TextView main_title = (TextView) findViewById(R.id.main_toolbar_title);
-        main_title.setText("Chest");
+        main_title.setText(bodypart);
         setSupportActionBar(toolbar);
 
         // Set navigation drawer for this screen
@@ -102,16 +104,13 @@ public class ChestActivity extends AppCompatActivity {
         TextView navHeaderSubTitle = (TextView) navigationHeader.findViewById(R.id.textViewNavUserSub);
         navHeaderSubTitle.setText(username);
 
-
         String[] stringArr = null;
-
-
 
         ListView lv = (ListView) findViewById(R.id.lv);
 
         try {
-
-           new JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
+            String urlToServer = "https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname="+bodypart;
+           new JSONTask().execute(urlToServer);
             //TimeUnit.SECONDS.sleep(3);
             while (urlConnection == null){
                 //ProgressDialog.show(this, "Loading", "Wait while loading...");
@@ -138,17 +137,8 @@ public class ChestActivity extends AppCompatActivity {
             lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                    if(position==0){
-//                        Intent i=new Intent(ChestActivity.this,benchpress.class);
-//                        startActivity(i);
-//                    }
-//                    else if(position ==1)
-//                    {
-//                        Intent i=new Intent(ChestActivity.this,dumbbellpress.class);
-//                        startActivity(i);
-//                    }
                     try {
-                        Intent intent = new Intent(ChestActivity.this, ExcerciseActivity.class);
+                        Intent intent = new Intent(BodyPartActivity.this, ExcerciseActivity.class);
                         JSONObject obj = arr.getJSONObject(position);
                         intent.putExtra("exercise", obj.toString());
                         startActivity(intent);
@@ -297,7 +287,7 @@ public class ChestActivity extends AppCompatActivity {
     private void trustedDeviceDialog(final CognitoDevice newDevice) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Remember this device?");
-        //final EditText input = new EditText(UserActivity.this);
+        //final EditText input = new EditText(BodyActivity.this);
 
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
@@ -392,7 +382,7 @@ public class ChestActivity extends AppCompatActivity {
     private void showUserDetail(final String attributeType, final String attributeValue) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(attributeType);
-        final EditText input = new EditText(ChestActivity.this);
+        final EditText input = new EditText(BodyPartActivity.this);
         input.setText(attributeValue);
 
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(

@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.amazonaws.fitness.ChestActivity;
+import com.amazonaws.fitness.BodyPartActivity;
 import com.amazonaws.fitness.R;
 
 import java.util.concurrent.TimeUnit;
@@ -41,7 +41,7 @@ public class Body extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                //new ChestActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
+                //new BodyPartActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
                 try {
                     TimeUnit.SECONDS.sleep(1);
                 } catch (InterruptedException e) {
@@ -56,8 +56,8 @@ public class Body extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                //new ChestActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
-                Intent intent = new Intent(Body.this, ChestActivity.class);
+                //new BodyPartActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
+                Intent intent = new Intent(Body.this, BodyPartActivity.class);
                 startActivity(intent);
             }
         });

@@ -17,13 +17,12 @@ import android.widget.TextView;
 
 import com.amazonaws.fitness.ChangePasswordActivity;
 import com.amazonaws.fitness.R;
-import com.amazonaws.fitness.UserActivity;
+import com.amazonaws.fitness.BodyActivity;
 import com.amazonaws.fitness.VerifyActivity;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserDetails;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession;
 
-import static com.amazonaws.fitness.R.id.toolbar;
 import static com.amazonaws.regions.RegionUtils.init;
 
 public class body_back extends AppCompatActivity {
@@ -77,7 +76,7 @@ public class body_back extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(body_back.this, UserActivity.class);
+                Intent intent = new Intent(body_back.this, BodyActivity.class);
                 startActivity(intent);
             }
         });

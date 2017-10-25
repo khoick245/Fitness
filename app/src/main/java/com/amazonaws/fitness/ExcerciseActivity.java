@@ -71,6 +71,7 @@ public class ExcerciseActivity extends AppCompatActivity {
         String level = null;
         String rate = null;
         String type = null;
+        String excercisename = null;
 
         try {
             String objExercise = getIntent().getStringExtra("exercise");
@@ -80,6 +81,7 @@ public class ExcerciseActivity extends AppCompatActivity {
             level = jsonExercise.getString("level");
             rate = jsonExercise.getString("rate");
             type = jsonExercise.getString("type");
+            excercisename = jsonExercise.getString("exercisename");
         }catch (JSONException e){
             e.printStackTrace();
         }
@@ -92,7 +94,7 @@ public class ExcerciseActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.main_toolbar);
         toolbar.setTitle("");
         TextView main_title = (TextView) findViewById(R.id.main_toolbar_title);
-        main_title.setText("Excercise");
+        main_title.setText(excercisename);
         setSupportActionBar(toolbar);
 
         // Set navigation drawer for this screen
@@ -194,7 +196,7 @@ public class ExcerciseActivity extends AppCompatActivity {
     private void trustedDeviceDialog(final CognitoDevice newDevice) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Remember this device?");
-        //final EditText input = new EditText(UserActivity.this);
+        //final EditText input = new EditText(BodyActivity.this);
 
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,

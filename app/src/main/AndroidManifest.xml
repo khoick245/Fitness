@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".UserActivity"
+            android:name=".BodyActivity"
             android:label="@string/title_activity_user"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -68,7 +68,7 @@
             android:label="Body Back"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ChestActivity"
+            android:name=".BodyPartActivity"
             android:label="Chest"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
