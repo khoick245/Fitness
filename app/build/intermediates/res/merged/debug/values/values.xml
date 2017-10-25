@@ -356,7 +356,7 @@
         <item name="android:colorBackground">@color/toolbar_background</item>
         <item name="android:textColor">@color/toolbar_items</item>
     </style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/toolbar_background</item>
         <item name="colorPrimaryDark">@color/toolbar_background</item>

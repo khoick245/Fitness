@@ -75,6 +75,7 @@
             android:name=".fitnessjournal.dumbbellpress"
             android:label="Body"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ExcerciseActivity"></activity>
     </application>
 
 </manifest>

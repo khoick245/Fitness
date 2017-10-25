@@ -252,6 +252,10 @@
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/activity_register_user.xml"
     },
     {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/activity_excercise.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/activity_excercise.xml"
+    },
+    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/content_device_settings.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/content_device_settings.xml"
     },

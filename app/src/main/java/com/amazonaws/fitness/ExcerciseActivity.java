@@ -1,31 +1,26 @@
 package com.amazonaws.fitness;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.os.AsyncTask;
-import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.amazonaws.fitness.fitnessjournal.Body;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoDevice;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserAttributes;
@@ -36,25 +31,12 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHa
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.UpdateAttributesHandler;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class ChestActivity extends AppCompatActivity {
-    public static String urlConnection = null;
-    private final String TAG="Chest";
+public class ExcerciseActivity extends AppCompatActivity {
+
+    private final String TAG="Execercise";
 
     private NavigationView nDrawer;
     private DrawerLayout mDrawer;
@@ -78,7 +60,7 @@ public class ChestActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chest_activity);
+        setContentView(R.layout.activity_excercise);
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
@@ -86,7 +68,7 @@ public class ChestActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.main_toolbar);
         toolbar.setTitle("");
         TextView main_title = (TextView) findViewById(R.id.main_toolbar_title);
-        main_title.setText("Chest");
+        main_title.setText("Exercise");
         setSupportActionBar(toolbar);
 
         // Set navigation drawer for this screen
@@ -101,132 +83,8 @@ public class ChestActivity extends AppCompatActivity {
         View navigationHeader = nDrawer.getHeaderView(0);
         TextView navHeaderSubTitle = (TextView) navigationHeader.findViewById(R.id.textViewNavUserSub);
         navHeaderSubTitle.setText(username);
-
-
-        String[] stringArr = null;
-
-
-
-        ListView lv = (ListView) findViewById(R.id.lv);
-
-        try {
-
-           new JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
-            TimeUnit.SECONDS.sleep(3);
-//            while (urlConnection == null){
-//                ProgressDialog.show(this, "Loading", "Wait while loading...");
-//            }
-
-            final JSONObject jsonObject = new JSONObject(urlConnection);
-            final JSONArray arr = jsonObject.getJSONArray("bodyPartInfors");
-            ArrayList<String> chest_exercises = new ArrayList<String>();
-            for (int i = 0; i < arr.length(); i++) {
-                JSONObject o = arr.getJSONObject(i);
-                chest_exercises.add(o.getString("exercisename"));
-                stringArr = new String[chest_exercises.size()];
-                stringArr = chest_exercises.toArray(stringArr);
-            }
-
-
-
-            List<String> exercise_list = new ArrayList<String>(Arrays.asList(stringArr));
-            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>
-                    (this, android.R.layout.simple_list_item_1, exercise_list);
-
-            lv.setAdapter(arrayAdapter);
-
-            lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                    if(position==0){
-//                        Intent i=new Intent(ChestActivity.this,benchpress.class);
-//                        startActivity(i);
-//                    }
-//                    else if(position ==1)
-//                    {
-//                        Intent i=new Intent(ChestActivity.this,dumbbellpress.class);
-//                        startActivity(i);
-//                    }
-                    try {
-                        Intent intent = new Intent(ChestActivity.this, ExcerciseActivity.class);
-                        JSONObject obj = arr.getJSONObject(position);
-                        intent.putExtra("exercise", obj.toString());
-                        startActivity(intent);
-                    }catch (Exception e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
-                    }
-                }
-            });
-
-        } catch (JSONException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
     }
 
-    static class JSONTask extends AsyncTask<String,String,String>
-    {
-
-
-        @Override
-        protected String doInBackground(String... urls) {
-            HttpURLConnection connection = null;
-            BufferedReader reader = null;
-
-            try {
-                URL url = new URL(urls[0]);
-                connection = (HttpURLConnection) url.openConnection();
-                connection.connect();
-
-
-                InputStream stream = connection.getInputStream();
-
-                reader = new BufferedReader(new InputStreamReader(stream));
-
-                StringBuffer buffer = new StringBuffer();
-                String line = "";
-
-                while ((line = reader.readLine()) != null) {
-                    buffer.append(line+"\n");
-                    Log.d("Response: ", "> " + line);   //here u ll get whole response...... :-)
-
-                }
-                urlConnection = buffer.toString();
-                Body.urlString = buffer.toString();
-                return buffer.toString();
-
-
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } finally {
-                if (connection != null) {
-                    connection.disconnect();
-                }
-                try {
-                    if (reader != null) {
-                        reader.close();
-                    }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-            return null;
-        }
-        @Override
-        protected void onPostExecute(String result) {
-            super.onPostExecute(result);
-            urlConnection = result;
-            Body.urlString = result;
-            Log.d("working",result);
-        }
-
-    }
 
     // Delete attribute
     private void deleteAttribute(String attributeName) {
@@ -392,7 +250,7 @@ public class ChestActivity extends AppCompatActivity {
     private void showUserDetail(final String attributeType, final String attributeValue) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(attributeType);
-        final EditText input = new EditText(ChestActivity.this);
+        final EditText input = new EditText(ExcerciseActivity.this);
         input.setText(attributeValue);
 
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(

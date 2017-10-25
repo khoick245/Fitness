@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:2:1-80:12
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:2:1-81:12
 	package
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:8:5-78:19
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:8:5-79:19
 MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
@@ -178,6 +178,10 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:77:13-56
 	android:name
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:75:13-57
+activity#com.amazonaws.fitness.ExcerciseActivity
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:78:9-64
+	android:name
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:78:19-52
 uses-sdk
 INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78

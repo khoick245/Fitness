@@ -81,6 +81,7 @@
             android:name="com.amazonaws.fitness.fitnessjournal.dumbbellpress"
             android:label="Body"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.amazonaws.fitness.ExcerciseActivity" />
     </application>
 
 </manifest>
