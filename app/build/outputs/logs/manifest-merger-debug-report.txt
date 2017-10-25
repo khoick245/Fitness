@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:2:1-86:12
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:2:1-80:12
 	package
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:8:5-83:19
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:8:5-78:19
 MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
@@ -57,7 +57,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:16:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:15:13-62
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:15:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
@@ -75,13 +75,13 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:24:13-62
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:24:13-41
 activity#com.amazonaws.fitness.RegisterUser
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:27:9-29:59
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:28:13-62
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:28:13-41
 activity#com.amazonaws.fitness.SignUpConfirm
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:30:9-33:59
 	android:label
@@ -89,7 +89,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:31:13-63
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:31:13-42
 activity#com.amazonaws.fitness.MFAActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:34:9-37:59
 	android:label
@@ -97,7 +97,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:35:13-61
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:35:13-40
 activity#com.amazonaws.fitness.ForgotPasswordActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:38:9-41:59
 	android:label
@@ -105,7 +105,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:41:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:39:13-72
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:39:13-51
 activity#com.amazonaws.fitness.SettingsActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:42:9-45:59
 	android:label
@@ -113,7 +113,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:45:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:43:13-66
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:43:13-45
 activity#com.amazonaws.fitness.ChangePasswordActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:46:9-49:59
 	android:label
@@ -121,7 +121,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:47:13-72
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:47:13-51
 activity#com.amazonaws.fitness.VerifyActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:50:9-53:59
 	android:label
@@ -129,7 +129,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:51:13-64
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:51:13-43
 activity#com.amazonaws.fitness.AddAttributeActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:54:9-57:59
 	android:label
@@ -137,55 +137,47 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:57:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:55:13-70
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:55:13-49
 activity#com.amazonaws.fitness.NewPassword
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:58:9-61:68
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:58:9-61:59
 	android:label
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:60:13-64
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:61:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:59:13-61
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:59:13-40
 activity#com.amazonaws.fitness.fitnessjournal.Body
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:62:9-65:64
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:62:9-65:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:64:9-29
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:64:13-33
 	android:theme
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:65:9-52
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:63:9-65
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:63:13-48
 activity#com.amazonaws.fitness.fitnessjournal.body_back
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:66:9-69:68
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:66:9-69:59
 	android:label
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:68:13-38
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:69:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:67:13-74
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:67:13-53
 activity#com.amazonaws.fitness.ChestActivity
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:70:9-73:68
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:70:9-73:59
 	android:label
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:72:13-34
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:73:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:71:13-63
-activity#com.amazonaws.fitness.fitnessjournal.benchpress
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:74:9-77:68
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:71:13-42
+activity#com.amazonaws.fitness.fitnessjournal.dumbbellpress
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:74:9-77:59
 	android:label
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:76:13-33
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:77:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:75:13-75
-activity#com.amazonaws.fitness.fitnessjournal.dumbbellpress
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:78:9-81:68
-	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:80:13-33
-	android:theme
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:81:13-56
-	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:79:13-78
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:75:13-57
 uses-sdk
 INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78

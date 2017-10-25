@@ -11,7 +11,7 @@ public class dumbbellpress extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_benchpress);
+        setContentView(R.layout.activity_user);
 
         String url =
                 "https://www.youtube.com/embed/Vc63DPUoA40";

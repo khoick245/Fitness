@@ -122,7 +122,7 @@ public class UserActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                new ChestActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
+                //new ChestActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
                 try {
                     TimeUnit.SECONDS.sleep(1);
                 } catch (InterruptedException e) {

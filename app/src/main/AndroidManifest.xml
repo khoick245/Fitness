@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.amazonaws.fitness.MainActivity"
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,66 +21,60 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.amazonaws.fitness.UserActivity"
+            android:name=".UserActivity"
             android:label="@string/title_activity_user"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.RegisterUser"
+            android:name=".RegisterUser"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.SignUpConfirm"
+            android:name=".SignUpConfirm"
             android:label="@string/title_activity_sign_up_confirm"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.MFAActivity"
+            android:name=".MFAActivity"
             android:label="@string/title_activity_mfa"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.ForgotPasswordActivity"
+            android:name=".ForgotPasswordActivity"
             android:label="@string/title_activity_forgot_password"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.SettingsActivity"
+            android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.ChangePasswordActivity"
+            android:name=".ChangePasswordActivity"
             android:label="@string/title_activity_change_password"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.VerifyActivity"
+            android:name=".VerifyActivity"
             android:label="@string/title_activity_verify"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.AddAttributeActivity"
+            android:name=".AddAttributeActivity"
             android:label="@string/title_activity_add_attribute"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.NewPassword"
+            android:name=".NewPassword"
             android:label="@string/title_activity_new_password"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-        android:name="com.amazonaws.fitness.fitnessjournal.Body"
-        android:label="Body"
-        android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".fitnessjournal.Body"
+            android:label="Body"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.fitnessjournal.body_back"
+            android:name=".fitnessjournal.body_back"
             android:label="Body Back"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.ChestActivity"
+            android:name=".ChestActivity"
             android:label="Chest"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.amazonaws.fitness.fitnessjournal.benchpress"
+            android:name=".fitnessjournal.dumbbellpress"
             android:label="Body"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name="com.amazonaws.fitness.fitnessjournal.dumbbellpress"
-            android:label="Body"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
-
 
 </manifest>
