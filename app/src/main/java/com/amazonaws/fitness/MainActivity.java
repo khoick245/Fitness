@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
     // Screen fields
     private EditText inUsername;
     private EditText inPassword;
-    private Button btnLoginFacebook;
+    //private Button btnLoginFacebook;
     CallbackManager callbackManager;
 
     //Continuations
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set navigation drawer for this screen
         mDrawer = (DrawerLayout) findViewById(R.id.main_drawer_layout);
-        mDrawerToggle = new ActionBarDrawerToggle(this,mDrawer, toolbar, R.string.nav_drawer_open, R.string.nav_drawer_close);
+        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawer, toolbar, R.string.nav_drawer_open, R.string.nav_drawer_close);
         mDrawer.addDrawerListener(mDrawerToggle);
         mDrawerToggle.syncState();
         nDrawer = (NavigationView) findViewById(R.id.nav_view);
@@ -132,78 +132,6 @@ public class MainActivity extends AppCompatActivity {
         AppHelper.init(getApplicationContext());
         initApp();
         findCurrent();
-
-        //If access token is already here, set fb session
-        final AccessToken fbAccessToken = AccessToken.getCurrentAccessToken();
-        if (fbAccessToken != null) {
-            setFacebookSession(fbAccessToken);
-            btnLoginFacebook.setVisibility(View.GONE);
-        }
-
-        /**
-         * Initializes the sync client. This must be call before you can use it.
-         */
-        CognitoSyncClientManager.init(this);
-        FacebookSdk.sdkInitialize(getApplicationContext());
-        callbackManager = CallbackManager.Factory.create();
-
-        btnLoginFacebook = (Button) findViewById(R.id.btnLoginFacebook);
-        btnLoginFacebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // start Facebook Login
-                LoginManager.getInstance().logInWithReadPermissions(MainActivity.this, Arrays.asList("public_profile"));
-                LoginManager.getInstance().registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-                    @Override
-                    public void onSuccess(LoginResult loginResult) {
-//                        btnLoginFacebook.setVisibility(View.GONE);
-                        //Intent userActivity = new Intent(this, BodyActivity.class);
-                        //startActivity(new Intent(MainActivity.this, BodyActivity.class));
-                        new GetFbName(loginResult).execute();
-                        setFacebookSession(loginResult.getAccessToken());
-
-                        Intent intent =new Intent(MainActivity.this, BodyActivity.class);
-                        startActivityForResult(intent, 7);
-
-                    }
-
-                    @Override
-                    public void onCancel() {
-                        Toast.makeText(MainActivity.this, "Facebook login cancelled",
-                                Toast.LENGTH_LONG).show();
-                    }
-
-                    @Override
-                    public void onError(FacebookException error) {
-                        Toast.makeText(MainActivity.this, "Error in Facebook login " +
-                                error.getMessage(), Toast.LENGTH_LONG).show();
-                    }
-                });
-            }
-        });
-        btnLoginFacebook.setEnabled(getString(R.string.facebook_app_id) != "facebook_app_id");
-    }
-
-    private void setFacebookSession(AccessToken accessToken) {
-        Log.i(TAG, "facebook token: " + accessToken.getToken());
-        CognitoSyncClientManager.addLogins("graph.facebook.com",
-                accessToken.getToken());
-        btnLoginFacebook.setVisibility(View.GONE);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Open/Close the navigation drawer when menu icon is selected
-        if (mDrawerToggle.onOptionsItemSelected(item)) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
