@@ -60,12 +60,12 @@
         "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/com_facebook_tooltip_blue_bottomnub.png",
-        "source": "/Users/user/.android/build-cache/ad0b791ea6b113e60862bf2c04823dc58734a0dd/output/res/drawable-mdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
-    },
-    {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/com_facebook_button_icon_blue.png",
         "source": "/Users/user/.android/build-cache/2c08e9a9b22f2cbe0b8deabebe9d30eb76439292/output/res/drawable-mdpi-v4/com_facebook_button_icon_blue.png"
+    },
+    {
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/com_facebook_tooltip_blue_bottomnub.png",
+        "source": "/Users/user/.android/build-cache/ad0b791ea6b113e60862bf2c04823dc58734a0dd/output/res/drawable-mdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
     },
     {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png",

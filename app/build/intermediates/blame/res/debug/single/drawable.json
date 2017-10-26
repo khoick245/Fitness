@@ -16,12 +16,20 @@
         "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
         "source": "/Users/user/.android/build-cache/2c08e9a9b22f2cbe0b8deabebe9d30eb76439292/output/res/drawable/com_facebook_button_background.xml"
     },
     {
-        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/drawable/abc_btn_check_material.xml"
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable/fitnesslogo1.png",
+        "source": "/Users/user/492b/Fitness/app/src/main/res/drawable/fitnesslogo1.png"
+    },
+    {
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable/fitnesslogo2.png",
+        "source": "/Users/user/492b/Fitness/app/src/main/res/drawable/fitnesslogo2.png"
     },
     {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
@@ -118,6 +126,10 @@
     {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
         "source": "/Users/user/.android/build-cache/840c9dfbaf07c5caff565c4eb567512a6399851b/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable/fitnesslogo.png",
+        "source": "/Users/user/492b/Fitness/app/src/main/res/drawable/fitnesslogo.png"
     },
     {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable/side_nav_bar.xml",

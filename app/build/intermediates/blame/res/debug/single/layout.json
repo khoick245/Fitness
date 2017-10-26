@@ -212,16 +212,16 @@
         "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout/content_settings.xml",
-        "source": "/Users/user/492b/Fitness/app/src/main/res/layout/content_settings.xml"
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout/activity_user_back.xml",
+        "source": "/Users/user/492b/Fitness/app/src/main/res/layout/activity_user_back.xml"
     },
     {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
         "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/layout/notification_template_media_custom.xml"
     },
     {
-        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout/activity_user_back.xml",
-        "source": "/Users/user/492b/Fitness/app/src/main/res/layout/activity_user_back.xml"
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout/content_settings.xml",
+        "source": "/Users/user/492b/Fitness/app/src/main/res/layout/content_settings.xml"
     },
     {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout/content_body.xml",

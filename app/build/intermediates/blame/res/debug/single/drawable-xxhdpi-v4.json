@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
         "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
