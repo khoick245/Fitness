@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="facebook-login-4.27.0">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-login/4.27.0/res" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-login/4.27.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ad0b791ea6b113e60862bf2c04823dc58734a0dd/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/ad0b791ea6b113e60862bf2c04823dc58734a0dd/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

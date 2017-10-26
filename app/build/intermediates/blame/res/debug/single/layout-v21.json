@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout-v21/notification_action.xml"
+        "merged": "/Users/user/492b/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/user/.android/build-cache/98bd455796e835edbc8234c14874ce00d2d30c5c/output/res/layout-v21/notification_action_tombstone.xml"
     }
 ]

@@ -92,8 +92,11 @@ public class MainActivity extends AppCompatActivity {
     // Screen fields
     private EditText inUsername;
     private EditText inPassword;
-    //private Button btnLoginFacebook;
+
+    //Fb login
+    LoginButton loginButton;
     CallbackManager callbackManager;
+
 
     //Continuations
     private MultiFactorAuthenticationContinuation multiFactorAuthenticationContinuation;
@@ -132,6 +135,37 @@ public class MainActivity extends AppCompatActivity {
         AppHelper.init(getApplicationContext());
         initApp();
         findCurrent();
+
+
+
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        loginButton = (LoginButton) findViewById(R.id.fb_log_in);
+
+        callbackManager = CallbackManager.Factory.create();
+        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+            @Override
+            public void onSuccess(LoginResult loginResult) {
+                Toast.makeText(MainActivity.this, "SUCCESS", Toast.LENGTH_SHORT).show();
+                String token = AccessToken.getCurrentAccessToken().getToken();
+
+                startActivity(new Intent(MainActivity.this, BodyActivity.class));
+                //new FacebookCognitoSync().execute(token);//Cognito integration that works as an async task in the background
+
+
+
+            }
+
+            @Override
+            public void onCancel() {
+                Toast.makeText(MainActivity.this, "CANCEL", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onError(FacebookException error) {
+                Toast.makeText(MainActivity.this, "ERROR", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -226,10 +260,9 @@ public class MainActivity extends AppCompatActivity {
                     continueWithFirstTimeSignIn();
                 }
                 break;
-            case 7:
-                //New password
+            case 64206:
+                //fb
                 callbackManager.onActivityResult(requestCode, resultCode, data);
-                break;
         }
     }
 

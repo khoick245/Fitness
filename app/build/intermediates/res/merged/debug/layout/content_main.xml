@@ -20,6 +20,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginLeft="@dimen/activity_horizontal_margin"
     android:layout_marginRight="@dimen/activity_horizontal_margin"
     android:layout_marginTop="@dimen/activity_vertical_margin"
@@ -199,13 +200,21 @@
         android:layout_below="@+id/space4"
         android:layout_alignParentStart="true" />
 
-    <Button
-        android:text="Facebook"
-        android:layout_width="match_parent"
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fb_log_in"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnLoginFacebook"
-        android:layout_below="@+id/imageViewAppMainCognitoIcon"
-        android:layout_alignParentStart="true" />
+        android:layout_marginRight="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="8dp"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_below="@+id/space6"
+        android:layout_alignStart="@+id/textViewAppMainTitle"
+        android:layout_marginStart="28dp"></com.facebook.login.widget.LoginButton>
 
 
 </RelativeLayout>
