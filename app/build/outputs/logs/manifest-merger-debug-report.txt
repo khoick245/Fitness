@@ -23,25 +23,27 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:6:22-76
 application
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:8:5-79:19
-MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.1.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.27.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-login/4.27.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-share/4.27.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.27.0/AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:customtabs:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.facebook.android:facebook-places:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-places/4.27.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-applinks/4.27.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-messenger/4.27.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-core/4.27.0/AndroidManifest.xml:28:5-43:19
+MERGED from [com.android.support:design:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:11:9-41
 	android:supportsRtl
@@ -90,126 +92,164 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:33:13-56
 	android:name
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:31:13-42
-activity#com.amazonaws.fitness.MFAActivity
+activity#com.amazonaws.fitness.ForgotPasswordActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:34:9-37:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:36:13-55
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:36:13-67
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:35:13-40
-activity#com.amazonaws.fitness.ForgotPasswordActivity
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:35:13-51
+activity#com.amazonaws.fitness.SettingsActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:38:9-41:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:40:13-67
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:40:13-60
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:41:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:39:13-51
-activity#com.amazonaws.fitness.SettingsActivity
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:39:13-45
+activity#com.amazonaws.fitness.ChangePasswordActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:42:9-45:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:44:13-60
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:44:13-67
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:45:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:43:13-45
-activity#com.amazonaws.fitness.ChangePasswordActivity
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:43:13-51
+activity#com.amazonaws.fitness.VerifyActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:46:9-49:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:48:13-67
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:48:13-58
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:47:13-51
-activity#com.amazonaws.fitness.VerifyActivity
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:47:13-43
+activity#com.amazonaws.fitness.AddAttributeActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:50:9-53:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:52:13-58
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:52:13-65
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:51:13-43
-activity#com.amazonaws.fitness.AddAttributeActivity
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:51:13-49
+activity#com.amazonaws.fitness.NewPassword
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:54:9-57:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:56:13-65
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:56:13-64
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:57:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:55:13-49
-activity#com.amazonaws.fitness.NewPassword
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:55:13-40
+activity#com.amazonaws.fitness.fitnessjournal.Body
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:58:9-61:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:60:13-64
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:60:13-33
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:61:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:59:13-40
-activity#com.amazonaws.fitness.fitnessjournal.Body
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:59:13-48
+activity#com.amazonaws.fitness.fitnessjournal.body_back
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:62:9-65:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:64:13-33
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:64:13-38
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:63:13-48
-activity#com.amazonaws.fitness.fitnessjournal.body_back
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:63:13-53
+activity#com.amazonaws.fitness.BodyPartActivity
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:66:9-69:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:68:13-38
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:68:13-34
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:69:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:67:13-53
-activity#com.amazonaws.fitness.BodyPartActivity
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:67:13-45
+activity#com.amazonaws.fitness.fitnessjournal.dumbbellpress
 ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:70:9-73:59
 	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:72:13-34
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:72:13-33
 	android:theme
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:73:13-56
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:71:13-45
-activity#com.amazonaws.fitness.fitnessjournal.dumbbellpress
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:74:9-77:59
-	android:label
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:76:13-33
-	android:theme
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:77:13-56
-	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:75:13-57
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:71:13-57
 activity#com.amazonaws.fitness.ExcerciseActivity
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:78:9-64
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:74:9-64
 	android:name
-		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:78:19-52
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:74:19-52
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:76:9-78:55
+	android:value
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:78:13-52
+	android:name
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:77:13-58
 uses-sdk
 INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.1.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.27.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-login/4.27.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-share/4.27.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.27.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:customtabs:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-places/4.27.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-applinks/4.27.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-messenger/4.27.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-core/4.27.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:design:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.2.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.27.0/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.27.0/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.27.0/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.27.0/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.27.0/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.27.0/AndroidManifest.xml:33:19-68
+meta-data#android.support.VERSION
+ADDED from [com.android.support:customtabs:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:customtabs:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:customtabs:25.3.1] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/AndroidManifest.xml:23:9-47
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-core/4.27.0/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-core/4.27.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-core/4.27.0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.27.0] /Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-core/4.27.0/AndroidManifest.xml:40:13-70

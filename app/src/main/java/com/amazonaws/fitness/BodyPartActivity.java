@@ -50,9 +50,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import static android.R.id.list;
+
 public class BodyPartActivity extends AppCompatActivity {
     public static String urlConnection = null;
-    private final String TAG="Chest";
+    private final String TAG="Bodypart";
 
     private NavigationView nDrawer;
     private DrawerLayout mDrawer;
@@ -125,8 +127,6 @@ public class BodyPartActivity extends AppCompatActivity {
                 stringArr = new String[chest_exercises.size()];
                 stringArr = chest_exercises.toArray(stringArr);
             }
-
-
 
             List<String> exercise_list = new ArrayList<String>(Arrays.asList(stringArr));
             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>
@@ -623,6 +623,7 @@ public class BodyPartActivity extends AppCompatActivity {
         Intent addAttrbutesActivity = new Intent(this,AddAttributeActivity.class);
         startActivityForResult(addAttrbutesActivity, 22);
     }
+
 
 
 }

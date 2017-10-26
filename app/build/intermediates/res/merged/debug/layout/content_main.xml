@@ -25,22 +25,6 @@
     android:layout_marginTop="@dimen/activity_vertical_margin"
     tools:context="com.amazonaws.fitness.MainActivity">
 
-    <ImageView
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:id="@+id/imageViewAppMainCognitoIcon"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src="@mipmap/cognito"
-        android:scaleType="fitXY"/>
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/activity_inter_group_separation"
-        android:layout_below="@+id/imageViewAppMainCognitoIcon"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/space_1" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,22 +33,6 @@
         android:textSize="30dp"
         android:id="@+id/textViewAppMainTitle"
         android:layout_below="@+id/space_1"
-        android:layout_centerHorizontal="true" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/activity_inter_group_separation"
-        android:id="@+id/space"
-        android:layout_below="@+id/textViewAppMainTitle"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/app_main_desc"
-        android:id="@+id/textView"
-        android:layout_below="@+id/space"
         android:layout_centerHorizontal="true" />
 
     <Space
@@ -186,6 +154,38 @@
         android:layout_alignParentStart="true"
         android:onClick="signUp"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/app_main_desc"
+        android:id="@+id/textView"
+        android:layout_below="@+id/space"
+        android:layout_alignParentStart="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_inter_group_separation"
+        android:id="@+id/space_1"
+        android:layout_below="@+id/imageViewAppMainCognitoIcon"
+        android:layout_alignParentStart="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_inter_group_separation"
+        android:id="@+id/space"
+        android:layout_below="@+id/textViewAppMainTitle"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageViewAppMainCognitoIcon"
+        android:src="@mipmap/cognito"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -198,5 +198,14 @@
         android:onClick="logIn"
         android:layout_below="@+id/space4"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLoginFacebook"
+        android:layout_below="@+id/imageViewAppMainCognitoIcon"
+        android:layout_alignParentStart="true" />
+
 
 </RelativeLayout>

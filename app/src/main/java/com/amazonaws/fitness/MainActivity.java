@@ -21,6 +21,7 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.os.AsyncTask;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
@@ -33,8 +34,10 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoDevice;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
@@ -48,8 +51,33 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.continuations.NewP
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.AuthenticationHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.ForgotPasswordHandler;
 
+import java.util.Arrays;
 import java.util.Locale;
 import java.util.Map;
+
+import com.facebook.AccessToken;
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
+import com.facebook.login.LoginManager;
+import com.facebook.login.LoginResult;
+import com.facebook.login.widget.LoginButton;
+import com.facebook.AccessToken;
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
+import com.facebook.login.LoginManager;
+import com.facebook.login.LoginResult;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import static android.R.attr.name;
+import static com.amazonaws.fitness.R.id.textView;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG="MainActivity";
@@ -64,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
     // Screen fields
     private EditText inUsername;
     private EditText inPassword;
+    private Button btnLoginFacebook;
+    CallbackManager callbackManager;
 
     //Continuations
     private MultiFactorAuthenticationContinuation multiFactorAuthenticationContinuation;
@@ -102,6 +132,63 @@ public class MainActivity extends AppCompatActivity {
         AppHelper.init(getApplicationContext());
         initApp();
         findCurrent();
+
+        //If access token is already here, set fb session
+        final AccessToken fbAccessToken = AccessToken.getCurrentAccessToken();
+        if (fbAccessToken != null) {
+            setFacebookSession(fbAccessToken);
+            btnLoginFacebook.setVisibility(View.GONE);
+        }
+
+        /**
+         * Initializes the sync client. This must be call before you can use it.
+         */
+        CognitoSyncClientManager.init(this);
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        callbackManager = CallbackManager.Factory.create();
+
+        btnLoginFacebook = (Button) findViewById(R.id.btnLoginFacebook);
+        btnLoginFacebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // start Facebook Login
+                LoginManager.getInstance().logInWithReadPermissions(MainActivity.this, Arrays.asList("public_profile"));
+                LoginManager.getInstance().registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+                    @Override
+                    public void onSuccess(LoginResult loginResult) {
+//                        btnLoginFacebook.setVisibility(View.GONE);
+                        //Intent userActivity = new Intent(this, BodyActivity.class);
+                        //startActivity(new Intent(MainActivity.this, BodyActivity.class));
+                        new GetFbName(loginResult).execute();
+                        setFacebookSession(loginResult.getAccessToken());
+
+                        Intent intent =new Intent(MainActivity.this, BodyActivity.class);
+                        startActivityForResult(intent, 7);
+
+                    }
+
+                    @Override
+                    public void onCancel() {
+                        Toast.makeText(MainActivity.this, "Facebook login cancelled",
+                                Toast.LENGTH_LONG).show();
+                    }
+
+                    @Override
+                    public void onError(FacebookException error) {
+                        Toast.makeText(MainActivity.this, "Error in Facebook login " +
+                                error.getMessage(), Toast.LENGTH_LONG).show();
+                    }
+                });
+            }
+        });
+        btnLoginFacebook.setEnabled(getString(R.string.facebook_app_id) != "facebook_app_id");
+    }
+
+    private void setFacebookSession(AccessToken accessToken) {
+        Log.i(TAG, "facebook token: " + accessToken.getToken());
+        CognitoSyncClientManager.addLogins("graph.facebook.com",
+                accessToken.getToken());
+        btnLoginFacebook.setVisibility(View.GONE);
     }
 
     @Override
@@ -205,11 +292,16 @@ public class MainActivity extends AppCompatActivity {
                 closeWaitDialog();
                 Boolean continueSignIn = false;
                 if (resultCode == RESULT_OK) {
-                   continueSignIn = data.getBooleanExtra("continueSignIn", false);
+                    continueSignIn = data.getBooleanExtra("continueSignIn", false);
                 }
                 if (continueSignIn) {
                     continueWithFirstTimeSignIn();
                 }
+                break;
+            case 7:
+                //New password
+                callbackManager.onActivityResult(requestCode, resultCode, data);
+                break;
         }
     }
 
@@ -223,6 +315,9 @@ public class MainActivity extends AppCompatActivity {
     public void logIn(View view) {
         signInUser();
     }
+
+    // login facebook
+
 
     // Forgot password processing
     public void forgotPassword(View view) {
@@ -322,9 +417,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void mfaAuth(MultiFactorAuthenticationContinuation continuation) {
         multiFactorAuthenticationContinuation = continuation;
-        Intent mfaActivity = new Intent(this, MFAActivity.class);
-        mfaActivity.putExtra("mode", multiFactorAuthenticationContinuation.getParameters().getDeliveryMedium());
-        startActivityForResult(mfaActivity, 5);
+        //Intent mfaActivity = new Intent(this, MFAActivity.class);
+        //mfaActivity.putExtra("mode", multiFactorAuthenticationContinuation.getParameters().getDeliveryMedium());
+        //startActivityForResult(mfaActivity, 5);
     }
 
     private void firstTimeSignIn() {
@@ -368,6 +463,14 @@ public class MainActivity extends AppCompatActivity {
         Intent userActivity = new Intent(this, BodyActivity.class);
         //Intent userActivity = new Intent(this, Body.class);
         userActivity.putExtra("name", username);
+        startActivityForResult(userActivity, 4);
+        finish();
+    }
+
+    private void launchUser1(String user) {
+        Intent userActivity = new Intent(this, BodyActivity.class);
+        //Intent userActivity = new Intent(this, Body.class);
+        userActivity.putExtra("name", user);
         startActivityForResult(userActivity, 4);
         finish();
     }
@@ -588,6 +691,55 @@ public class MainActivity extends AppCompatActivity {
         }
         catch (Exception e) {
             //
+        }
+    }
+
+    private class GetFbName extends AsyncTask<Void, Void, String> {
+        private final LoginResult loginResult;
+        private ProgressDialog dialog;
+
+        public GetFbName(LoginResult loginResult) {
+            this.loginResult = loginResult;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            dialog = ProgressDialog.show(MainActivity.this, "Wait", "Getting user name");
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            GraphRequest request = GraphRequest.newMeRequest(
+                    loginResult.getAccessToken(),
+                    new GraphRequest.GraphJSONObjectCallback() {
+                        @Override
+                        public void onCompleted(
+                                JSONObject object,
+                                GraphResponse response) {
+                            // Application code
+                            Log.v("LoginActivity", response.toString());
+                        }
+                    });
+            Bundle parameters = new Bundle();
+            parameters.putString("fields", "name");
+            request.setParameters(parameters);
+            GraphResponse graphResponse = request.executeAndWait();
+            try {
+                return graphResponse.getJSONObject().getString("name");
+            } catch (JSONException e) {
+                return null;
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            dialog.dismiss();
+            if (response != null) {
+                Toast.makeText(MainActivity.this, "Hello " + response, Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(MainActivity.this, "Unable to get user name from Facebook",
+                        Toast.LENGTH_LONG).show();
+            }
         }
     }
 }

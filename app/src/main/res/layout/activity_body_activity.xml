@@ -38,7 +38,7 @@
             android:layout_height="match_parent"/>
 
         <!-- Set the Main content -->
-        <include layout="@layout/content_chest"
+        <include layout="@layout/content_bodypart"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>

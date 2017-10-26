@@ -1,2 +1,293 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_4cca36ef5d3dcddb9043ff5941f2c87e32497854.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_7189ccfa9f1f27e784e5a71350369551a5591b38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/core-3.3.0_419f93fbdaf6a184a5ef49cdfb8f65b0e03d800f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_33cccfcdf2cdda3383c9ab1bf70d6aaa22b7db44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-core/4.27.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc9ea2bc291bbebc83f5b160d115c699bddc4e16">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-core-4.27.0_f330e961bccd19c07e4e31033ae8161a64a64f6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_5a92ba6fb56247ab91f5c44133ca798cea6f9151.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.5.1/4401b15ca6aad7bc187e8daea1c84e9674186ea8/glide-3.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4401b15ca6aad7bc187e8daea1c84e9674186ea8">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/glide-3.5.1_740240bc1b0fa96798293ecff8f50b4b30e255d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-places/4.27.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-places-4.27.0_3609cc7098565492ceff10e80ddba1c85883573a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognito/2.4.7/432c740a2b19f51ac110cb3f6888c8b05bca5bf3/aws-android-sdk-cognito-2.4.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="432c740a2b19f51ac110cb3f6888c8b05bca5bf3">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/aws-android-sdk-cognito-2.4.7_62fe1b3cfe5efa9950a2511cb7aa0b6cc6271f0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_c68ea2ce00ffbdbe75376e6ed00404b21e70881c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_6638501b2ad4eee8d46be2ccea98fc3aa9bd8caa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_e77e6a94f425f61bee277d31109bb01acc4c9c8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-share/4.27.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9a0c96cb2e74d3a6e692d920c9e03326e77f6429">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-share-4.27.0_f9b65882b848828042c71f968238ff51ac6c80f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.3.1_0953cb7780fa9dc232e2945ef82a866010bb3d1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_d4a211008b68718b6c1351fdb55b956e3ec37fd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_3225e1d1edc4ede42eaab1a604bc246cfd47cdd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-common/4.27.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="252896ce41f2a84a2849e29235e66098be7d12ee">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-common-4.27.0_500bcc8f9a8bbf305040783c4b59ec7cb9fbc632.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-applinks/4.27.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-applinks-4.27.0_82ff9084d2c94b4135df2cdbe6a9b4f96f69948c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-messenger/4.27.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-messenger-4.27.0_14cbeb8718dd910a50356f7c6419e005d0e932a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.4.7/e6942ca3818c756be3370fb9ff643dbe08297201/aws-android-sdk-core-2.4.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6942ca3818c756be3370fb9ff643dbe08297201">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/aws-android-sdk-core-2.4.7_cc3540e8ac9be6a2b06cd7353c82f575895dba22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_2ea305f0247fe568ae8307920e5d3b684da7ea89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_752e7013fccad9dcf52b980c7dd4708f1185fe89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.27.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.27.0_689feb9d54b22648e710604ec62875e62c766487.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_3c958dccab38d007d82797029bc6cc28151e965f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/libs/commons-codec-1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cd61d269c88f9fb0eb36cea1efcd596ab74772f">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/commons-codec-1.7_ecaa41a0bfebfcb710015aecf262ce42e605476e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_16cf91e3b4acc1c4da92b69993bf65bed830f0e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_6631269dae34455e1c24c10ea497f83954ee956f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_97250a446c6499d5616f9fdcfe97b9921bf0c186.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-login/4.27.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-login-4.27.0_631d26eef26d2706c8273c3aa9ad5077fe6eff57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognitoidentityprovider/2.3.2/a0f7bb46189be243f3e7a34634bbd9c26baec10/aws-android-sdk-cognitoidentityprovider-2.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0f7bb46189be243f3e7a34634bbd9c26baec10">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/aws-android-sdk-cognitoidentityprovider-2.3.2_ea39e8a765864b946e1bd291a4cb5b4137fb995a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_7be0bf84643254e87760cc7f7b61504f3f5858c9.jar" />
+    </item>
+
+</items>

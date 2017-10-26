@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_visibility_off_black.png",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/mipmap-mdpi/ic_visibility_off_black.png"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/mipmap-mdpi/cognito.png",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/mipmap-mdpi/cognito.png"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_visibility_black.png",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/mipmap-mdpi/ic_visibility_black.png"
+    }
+]
