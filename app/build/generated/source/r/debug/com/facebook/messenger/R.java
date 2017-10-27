@@ -19,7 +19,7 @@ public final class R {
 		public static final int messenger_button_white_bg_selector = 0x7f020094;
 	}
 	public static final class id {
-		public static final int messenger_send_button = 0x7f0d0164;
+		public static final int messenger_send_button = 0x7f0d0163;
 	}
 	public static final class layout {
 		public static final int messenger_button_send_blue_large = 0x7f040059;

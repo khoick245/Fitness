@@ -10,41 +10,699 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4349bcb-d3e6-4799-829c-23a980603cf3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/aws_android_sdk_cognito_2_4_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/aws_android_sdk_cognitoidentityprovider_2_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/aws_android_sdk_core_2_4_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bolts_android_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bolts_applinks_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bolts_tasks_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/core_3_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/customtabs_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_27_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_applinks_4_27_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_common_4_27_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_core_4_27_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_login_4_27_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_messenger_4_27_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_places_4_27_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_share_4_27_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/glide_3_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/anim.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/color.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/drawable.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/layout-v16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/layout.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-v16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/androidTest/debug/com/amazonaws/fitness/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-safeguard/androidTest/debug/tag.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/CognitoSyncManager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/CognitoSyncManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/Dataset$SyncCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/Dataset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/DatasetMetadata$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/DatasetMetadata$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/DatasetMetadata.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/DefaultDataset$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/DefaultDataset$SyncOnConnectivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/DefaultDataset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/DefaultSyncCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/PushSyncUpdate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/Record$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/Record$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/Record.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/SyncConflict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/exceptions/DataAccessNotAuthorizedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/exceptions/DataConflictException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/exceptions/DataLimitExceededException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/exceptions/DataStorageException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/exceptions/DatasetNotFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/exceptions/NetworkException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/exceptions/RegistrationFailedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/exceptions/SubscribeFailedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/exceptions/UnsubscribeFailedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/CognitoSyncStorage$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/CognitoSyncStorage$DatasetUpdatesImpl$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/CognitoSyncStorage$DatasetUpdatesImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/CognitoSyncStorage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/LocalStorage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/RemoteDataStorage$DatasetUpdates.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/RemoteDataStorage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/SQLiteLocalStorage$DatabaseHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/SQLiteLocalStorage$DatasetColumns.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/SQLiteLocalStorage$RecordColumns.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/storage/SQLiteLocalStorage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/util/DatasetUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/mobileconnectors/cognito/internal/util/StringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/AmazonCognitoSync.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/AmazonCognitoSyncClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/Dataset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/DeleteDatasetRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/DeleteDatasetResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/DescribeDatasetRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/DescribeDatasetResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/InternalErrorException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/InvalidConfigurationException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/InvalidLambdaFunctionOutputException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/InvalidParameterException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/LambdaThrottledException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/LimitExceededException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/ListDatasetsRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/ListDatasetsResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/ListRecordsRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/ListRecordsResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/NotAuthorizedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/Operation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/Platform.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/Record.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/RecordPatch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/RegisterDeviceRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/RegisterDeviceResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/ResourceConflictException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/ResourceNotFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/SubscribeToDatasetRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/SubscribeToDatasetResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/TooManyRequestsException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/UnsubscribeFromDatasetRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/UnsubscribeFromDatasetResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/UpdateRecordsRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/UpdateRecordsResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/DatasetJsonMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/DatasetJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/DeleteDatasetRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/DeleteDatasetResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/DescribeDatasetRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/DescribeDatasetResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/InternalErrorExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/InvalidConfigurationExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/InvalidLambdaFunctionOutputExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/InvalidParameterExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/LambdaThrottledExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/LimitExceededExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/ListDatasetsRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/ListDatasetsResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/ListRecordsRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/ListRecordsResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/NotAuthorizedExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/RecordJsonMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/RecordJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/RecordPatchJsonMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/RecordPatchJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/RegisterDeviceRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/RegisterDeviceResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/ResourceConflictExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/ResourceNotFoundExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/SubscribeToDatasetRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/SubscribeToDatasetResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/TooManyRequestsExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/UnsubscribeFromDatasetRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/UnsubscribeFromDatasetResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/UpdateRecordsRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-cognito-2.4.7.jar_1kudi9e3dgangygmppx17rp2f/com/amazonaws/services/cognitosync/model/transform/UpdateRecordsResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/AbortedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/AmazonClientException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/AmazonServiceException$ErrorType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/AmazonServiceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/AmazonWebServiceClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/AmazonWebServiceRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/AmazonWebServiceResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/ClientConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/DefaultRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/HttpMethod.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/Protocol.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/Request.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/RequestClientOptions$Marker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/RequestClientOptions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/Response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/ResponseMetadata.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/SDKGlobalConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/ServiceNameFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWS3Signer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWS4Signer$HeaderSigningResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWS4Signer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSAbstractCognitoDeveloperIdentityProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSAbstractCognitoIdentityProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSBasicCognitoIdentityProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSCognitoIdentityProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSCredentialsProviderChain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSEnhancedCognitoIdentityProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSIdentityProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSRefreshableSessionCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AWSSessionCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AbstractAWSSigner$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AbstractAWSSigner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/AnonymousAWSCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/BasicAWSCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/BasicSessionCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/ClasspathPropertiesFileCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/CognitoCachingCredentialsProvider$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/CognitoCachingCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/CognitoCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/DefaultAWSCredentialsProviderChain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/IdentityChangedListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/NoOpSigner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/NoSessionSupportCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/Presigner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/PropertiesCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/PropertiesFileCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/QueryStringSigner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/RegionAwareSigner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/STSAssumeRoleSessionCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/STSSessionCredentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/STSSessionCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/ServiceAwareSigner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/SessionCredentialsProviderFactory$Key.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/SessionCredentialsProviderFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/SignatureVersion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/Signer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/SignerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/SigningAlgorithm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/SystemPropertiesCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/WebIdentityFederationSessionCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/Action.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/Condition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/Policy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/Principal$Services.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/Principal$WebIdentityProviders.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/Principal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/Resource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/STSActions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/Statement$Effect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/Statement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/actions/SecurityTokenServiceActions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/ArnCondition$ArnComparisonType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/ArnCondition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/BooleanCondition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/ConditionFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/DateCondition$DateComparisonType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/DateCondition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/IpAddressCondition$IpAddressComparisonType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/IpAddressCondition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/NumericCondition$NumericComparisonType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/NumericCondition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/StringCondition$StringComparisonType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/conditions/StringCondition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/internal/JsonDocumentFields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/internal/JsonPolicyReader$NamedAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/internal/JsonPolicyReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/internal/JsonPolicyWriter$ConditionsByKey.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/auth/policy/internal/JsonPolicyWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/event/ProgressEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/event/ProgressListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/event/ProgressListenerCallbackExecutor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/event/ProgressListenerCallbackExecutor$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/event/ProgressListenerCallbackExecutor$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/event/ProgressListenerCallbackExecutor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/event/ProgressListenerChain$ProgressEventFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/event/ProgressListenerChain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/event/ProgressReportingInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/handlers/AbstractRequestHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/handlers/AsyncHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/handlers/CredentialsRequestHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/handlers/HandlerChainFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/handlers/RequestHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/handlers/RequestHandler2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/handlers/RequestHandler2Adaptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/AmazonHttpClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/ApacheHttpClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/ConnectionManagerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/DefaultErrorResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/ExecutionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpClientFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpClientFactory$LocationHeaderNotRequiredRedirectHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpClientFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpHeader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpMethodName.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpMethodReleaseInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpRequestFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpResponse$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpResponse$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/HttpResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/IdleConnectionReaper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/JsonErrorResponseHandler$JsonErrorResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/JsonErrorResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/JsonResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/RepeatableInputStreamRequestEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/StaxResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/UrlHttpClient$CurlBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/UrlHttpClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/conn/ClientConnectionManagerFactory$Handler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/conn/ClientConnectionManagerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/conn/ClientConnectionRequestFactory$Handler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/conn/ClientConnectionRequestFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/conn/Wrapped.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/impl/client/HttpRequestNoRetryHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/impl/client/SdkHttpClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/impl/client/SdkHttpRequestRetryHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/http/protocol/SdkHttpRequestExecutor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/CRC32MismatchException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/CustomBackoffStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/DynamoDBBackoffStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/ListWithAutoConstructFlag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/MetricAware.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/Releasable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/ReleasableInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/ResettableInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/SdkDigestInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/SdkFilterInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/SdkFilterOutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/SdkInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/StaticCredentialsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/config/HostRegexToRegionMapping.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/config/HttpClientConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/config/InternalConfig$Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/config/InternalConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/internal/config/SignerConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/AwsSdkMetrics$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/AwsSdkMetrics$MetricRegistry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/AwsSdkMetrics.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/ByteThroughputHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/ByteThroughputProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/MetricCollector$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/MetricCollector$Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/MetricCollector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/MetricFilterInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/MetricInputStreamEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/MetricType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/RequestMetricCollector$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/RequestMetricCollector$Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/RequestMetricCollector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/RequestMetricType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/ServiceLatencyProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/ServiceMetricCollector$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/ServiceMetricCollector$Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/ServiceMetricCollector.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/ServiceMetricType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/SimpleMetricType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/SimpleServiceMetricType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/SimpleThroughputMetricType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/ThroughputMetricType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/internal/ServiceMetricTypeGuesser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/metrics/package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/regions/Region.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/regions/RegionDefaults.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/regions/RegionMetadata.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/regions/RegionMetadataParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/regions/RegionUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/regions/Regions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/regions/ServiceAbbreviations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/PredefinedRetryPolicies$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/PredefinedRetryPolicies$SDKDefaultBackoffStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/PredefinedRetryPolicies$SDKDefaultRetryCondition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/PredefinedRetryPolicies.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/RetryPolicy$BackoffStrategy$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/RetryPolicy$BackoffStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/RetryPolicy$RetryCondition$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/RetryPolicy$RetryCondition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/RetryPolicy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/retry/RetryUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/AmazonCognitoIdentity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/AmazonCognitoIdentityClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/Credentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/ExternalServiceException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/GetCredentialsForIdentityRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/GetCredentialsForIdentityResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/GetIdRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/GetIdResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/GetOpenIdTokenRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/GetOpenIdTokenResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/InternalErrorException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/InvalidIdentityPoolConfigurationException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/InvalidParameterException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/LimitExceededException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/NotAuthorizedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/ResourceConflictException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/ResourceNotFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/TooManyRequestsException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/CredentialsJsonMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/CredentialsJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/ExternalServiceExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/GetCredentialsForIdentityRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/GetCredentialsForIdentityResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/GetIdRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/GetIdResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/GetOpenIdTokenRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/GetOpenIdTokenResultJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/InternalErrorExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/InvalidIdentityPoolConfigurationExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/InvalidParameterExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/LimitExceededExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/NotAuthorizedExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/ResourceConflictExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/ResourceNotFoundExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/cognitoidentity/model/transform/TooManyRequestsExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/AWSSecurityTokenService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/AWSSecurityTokenServiceClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/AssumeRoleRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/AssumeRoleResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/AssumeRoleWithWebIdentityRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/AssumeRoleWithWebIdentityResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/AssumedRoleUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/Credentials.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/ExpiredTokenException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/FederatedUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/GetCallerIdentityRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/GetCallerIdentityResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/GetFederationTokenRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/GetFederationTokenResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/GetSessionTokenRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/GetSessionTokenResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/IDPCommunicationErrorException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/IDPRejectedClaimException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/InvalidIdentityTokenException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/MalformedPolicyDocumentException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/PackedPolicyTooLargeException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/RegionDisabledException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/AssumeRoleRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/AssumeRoleResultStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/AssumeRoleWithWebIdentityRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/AssumeRoleWithWebIdentityResultStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/AssumedRoleUserStaxMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/AssumedRoleUserStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/CredentialsStaxMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/CredentialsStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/ExpiredTokenExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/FederatedUserStaxMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/FederatedUserStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/GetCallerIdentityRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/GetCallerIdentityResultStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/GetFederationTokenRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/GetFederationTokenResultStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/GetSessionTokenRequestMarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/GetSessionTokenResultStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/IDPCommunicationErrorExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/IDPRejectedClaimExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/InvalidIdentityTokenExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/MalformedPolicyDocumentExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/PackedPolicyTooLargeExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/services/securitytoken/model/transform/RegionDisabledExceptionUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/AbstractErrorUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/JsonErrorUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/JsonUnmarshallerContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/LegacyErrorUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/ListUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/MapEntry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/MapUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/Marshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$BigDecimalJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$BigIntegerJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$BooleanJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$ByteBufferJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$ByteJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$DateJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$DoubleJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$FloatJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$IntegerJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$LongJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers$StringJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeJsonUnmarshallers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$BigDecimalStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$BigIntegerStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$BooleanStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$ByteBufferStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$ByteStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$DateStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$DoubleStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$FloatStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$IntegerStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$LongStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers$StringStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/SimpleTypeStaxUnmarshallers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/StandardErrorUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/StaxUnmarshallerContext$MetadataExpression.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/StaxUnmarshallerContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/Unmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/VoidJsonUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/VoidStaxUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/transform/VoidUnmarshaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/AWSRequestMetrics$Field.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/AWSRequestMetrics.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/AWSRequestMetricsFullSupport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/AWSServiceMetrics.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/AbstractBase32Codec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/AwsHostNameUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Base16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Base16Codec$LazyHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Base16Codec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Base32.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Base32Codec$LazyHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Base32Codec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Base64.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Base64Codec$LazyHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Base64Codec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/BinaryUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/CRC32ChecksumCalculatingInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/ClassLoaderHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Classes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Codec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/CodecUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/CountingInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/DateUtils$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/DateUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/EncodingScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/EncodingSchemeEnum$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/EncodingSchemeEnum$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/EncodingSchemeEnum$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/EncodingSchemeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/HttpClientWrappingInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/HttpUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/IOUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/ImmutableMapParameter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/ImmutableMapParameter$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/ImmutableMapParameter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/LengthCheckInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Md5Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/NamespaceRemovingInputStream$StringPrefixSlicer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/NamespaceRemovingInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/ResponseMetadataCache$InternalCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/ResponseMetadataCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/RuntimeHttpUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/ServiceClientHolderInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/StringInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/StringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/Throwables.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/TimingInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/TimingInfoFullSupport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/TimingInfoUnmodifiable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/ValidationUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/VersionInfoUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/XMLWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/XmlUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/XpathUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/AwsJsonFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/AwsJsonReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/AwsJsonToken.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/AwsJsonWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/DateDeserializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/GsonFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/GsonFactory$GsonReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/GsonFactory$GsonWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/GsonFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/JacksonFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/JacksonFactory$JacksonReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/JacksonFactory$JacksonWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/JacksonFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/JsonUtils$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/JsonUtils$JsonEngine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/aws-android-sdk-core-2.4.7.jar_bln9ot27c4h38qvef0yj04o5x/com/amazonaws/util/json/JsonUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/BinaryDecoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/BinaryEncoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/CharEncoding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/Charsets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/Decoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/DecoderException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/Encoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/EncoderException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/StringDecoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/StringEncoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/StringEncoderComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/Base32.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/Base32InputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/Base32OutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/Base64.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/Base64InputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/Base64OutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/BaseNCodec$Context.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/BaseNCodec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/BaseNCodecInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/BaseNCodecOutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/BinaryCodec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/Hex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/binary/StringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/digest/B64.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/digest/Crypt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/digest/DigestUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/digest/Md5Crypt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/digest/MessageDigestAlgorithms.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/digest/Sha2Crypt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/digest/UnixCrypt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/AbstractCaverphone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/Caverphone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/Caverphone1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/Caverphone2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/ColognePhonetic$CologneBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/ColognePhonetic$CologneInputBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/ColognePhonetic$CologneOutputBuffer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/ColognePhonetic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/DoubleMetaphone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/Metaphone.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/Nysiis.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/RefinedSoundex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/Soundex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/SoundexUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/BeiderMorseEncoder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Lang$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Lang$LangRule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Lang.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Languages$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Languages$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Languages$LanguageSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Languages$SomeLanguages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Languages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/NameType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/PhoneticEngine$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/PhoneticEngine$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/PhoneticEngine$RulesApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/PhoneticEngine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/ResourceConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$Phoneme$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$Phoneme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$PhonemeExpr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$PhonemeList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule$RPattern.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/Rule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/language/bm/RuleType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/net/BCodec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/net/QCodec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/net/QuotedPrintableCodec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/net/RFC1522Codec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/net/URLCodec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/commons-codec-1.7.jar_845pnunkz3xzvyf2mwf3nwaxg/org/apache/commons/codec/net/Utils.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/BodyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/BodyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/BodyPartActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/BodyPartActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/ExcerciseActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/FirstTimeLoginAttributesDisplayAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/FirstTimeLoginAttributesDisplayAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/NewPassword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$mipmap.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/RegisterUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SettingsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/SignUpConfirm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/UserAttributesAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/UserAttributesAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/VerifyActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/VerifyActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/VerifyActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/VerifyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/Body.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/Body.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/body_back.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/amazonaws/fitness/fitnessjournal/body_back.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/common/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/common/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/login/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/login/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/messenger/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/messenger/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/share/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/facebook/share/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/ukkbhC7eVUrCaNAXyGjEPT1psA0=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/ukkbhC7eVUrCaNAXyGjEPT1psA0=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/aws-android-sdk-cognito-2.4.7_62fe1b3cfe5efa9950a2511cb7aa0b6cc6271f0e.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/aws-android-sdk-cognito-2.4.7_62fe1b3cfe5efa9950a2511cb7aa0b6cc6271f0e.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/aws-android-sdk-cognitoidentityprovider-2.3.2_ea39e8a765864b946e1bd291a4cb5b4137fb995a.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/aws-android-sdk-cognitoidentityprovider-2.3.2_ea39e8a765864b946e1bd291a4cb5b4137fb995a.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/aws-android-sdk-core-2.4.7_cc3540e8ac9be6a2b06cd7353c82f575895dba22.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/aws-android-sdk-core-2.4.7_cc3540e8ac9be6a2b06cd7353c82f575895dba22.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_3225e1d1edc4ede42eaab1a604bc246cfd47cdd4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_3225e1d1edc4ede42eaab1a604bc246cfd47cdd4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_752e7013fccad9dcf52b980c7dd4708f1185fe89.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_752e7013fccad9dcf52b980c7dd4708f1185fe89.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_4cca36ef5d3dcddb9043ff5941f2c87e32497854.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_4cca36ef5d3dcddb9043ff5941f2c87e32497854.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_7be0bf84643254e87760cc7f7b61504f3f5858c9.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_7be0bf84643254e87760cc7f7b61504f3f5858c9.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_2ea305f0247fe568ae8307920e5d3b684da7ea89.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.3.1_2ea305f0247fe568ae8307920e5d3b684da7ea89.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.3.1_0953cb7780fa9dc232e2945ef82a866010bb3d1c.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.3.1_0953cb7780fa9dc232e2945ef82a866010bb3d1c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_6631269dae34455e1c24c10ea497f83954ee956f.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_6631269dae34455e1c24c10ea497f83954ee956f.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_c68ea2ce00ffbdbe75376e6ed00404b21e70881c.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_c68ea2ce00ffbdbe75376e6ed00404b21e70881c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_16cf91e3b4acc1c4da92b69993bf65bed830f0e1.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_16cf91e3b4acc1c4da92b69993bf65bed830f0e1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_33cccfcdf2cdda3383c9ab1bf70d6aaa22b7db44.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_33cccfcdf2cdda3383c9ab1bf70d6aaa22b7db44.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_97250a446c6499d5616f9fdcfe97b9921bf0c186.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_97250a446c6499d5616f9fdcfe97b9921bf0c186.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_e77e6a94f425f61bee277d31109bb01acc4c9c8e.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_e77e6a94f425f61bee277d31109bb01acc4c9c8e.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_d4a211008b68718b6c1351fdb55b956e3ec37fd5.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_d4a211008b68718b6c1351fdb55b956e3ec37fd5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_5a92ba6fb56247ab91f5c44133ca798cea6f9151.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_5a92ba6fb56247ab91f5c44133ca798cea6f9151.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_7189ccfa9f1f27e784e5a71350369551a5591b38.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_7189ccfa9f1f27e784e5a71350369551a5591b38.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_3c958dccab38d007d82797029bc6cc28151e965f.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_3c958dccab38d007d82797029bc6cc28151e965f.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.27.0_689feb9d54b22648e710604ec62875e62c766487.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.27.0_689feb9d54b22648e710604ec62875e62c766487.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-applinks-4.27.0_82ff9084d2c94b4135df2cdbe6a9b4f96f69948c.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-applinks-4.27.0_82ff9084d2c94b4135df2cdbe6a9b4f96f69948c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-common-4.27.0_500bcc8f9a8bbf305040783c4b59ec7cb9fbc632.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-common-4.27.0_500bcc8f9a8bbf305040783c4b59ec7cb9fbc632.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-core-4.27.0_f330e961bccd19c07e4e31033ae8161a64a64f6c.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-core-4.27.0_f330e961bccd19c07e4e31033ae8161a64a64f6c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-login-4.27.0_631d26eef26d2706c8273c3aa9ad5077fe6eff57.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-login-4.27.0_631d26eef26d2706c8273c3aa9ad5077fe6eff57.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-messenger-4.27.0_14cbeb8718dd910a50356f7c6419e005d0e932a3.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-messenger-4.27.0_14cbeb8718dd910a50356f7c6419e005d0e932a3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-places-4.27.0_3609cc7098565492ceff10e80ddba1c85883573a.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-places-4.27.0_3609cc7098565492ceff10e80ddba1c85883573a.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-share-4.27.0_f9b65882b848828042c71f968238ff51ac6c80f3.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-share-4.27.0_f9b65882b848828042c71f968238ff51ac6c80f3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/commons-codec-1.7_ecaa41a0bfebfcb710015aecf262ce42e605476e.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/commons-codec-1.7_ecaa41a0bfebfcb710015aecf262ce42e605476e.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/core-3.3.0_419f93fbdaf6a184a5ef49cdfb8f65b0e03d800f.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/core-3.3.0_419f93fbdaf6a184a5ef49cdfb8f65b0e03d800f.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_5a6b382526765c488a5361a9257edccaccb99885.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_5a6b382526765c488a5361a9257edccaccb99885.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/glide-3.5.1_740240bc1b0fa96798293ecff8f50b4b30e255d4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/glide-3.5.1_740240bc1b0fa96798293ecff8f50b4b30e255d4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_6638501b2ad4eee8d46be2ccea98fc3aa9bd8caa.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_6638501b2ad4eee8d46be2ccea98fc3aa9bd8caa.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/amazonaws/fitness/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/amazonaws/fitness/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/common/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/common/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/login/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/login/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/messenger/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/messenger/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/share/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/facebook/share/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Fitness.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,8 +738,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,8 +832,8 @@
       <file leaf-file-name="content_main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="3000">
-              <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+            <state relative-caret-position="2670">
+              <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,21 +845,17 @@
       <file leaf-file-name="BodyPartActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/BodyPartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
                 <element signature="method#deleteAttribute#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#changePassword#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#attributesVerification#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#signOut#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#init#0;class#BodyPartActivity#0" expanded="false" />
-                <element signature="class#9286:9866" expanded="false" />
                 <element signature="method#handleTrustedDevice#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#updateDeviceStatus#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#trustedDeviceDialog#0;class#BodyPartActivity#0" expanded="false" />
-                <element signature="class#11814:12435" expanded="false" />
-                <element signature="class#12477:13104" expanded="false" />
-                <element signature="class#13153:13525" expanded="false" />
                 <element signature="method#showUserDetail#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#showWaitDialog#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#showDialogMessage#0;class#BodyPartActivity#0" expanded="false" />
@@ -217,6 +871,7 @@
                 <element signature="method#updateAttribute#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#showSettings#0;class#BodyPartActivity#0" expanded="false" />
                 <element signature="method#addAttribute#0;class#BodyPartActivity#0" expanded="false" />
+                <marker date="1509065002000" expanded="true" signature="9712:9850" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -2030,7 +2685,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -2057,6 +2712,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2135,7 +2792,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2170,7 +2826,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -2512,7 +3167,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2522,7 +3177,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16235632" sideWeight="0.54291844" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16068867" sideWeight="0.54291844" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1637931" sideWeight="0.45708156" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2829,21 +3484,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/BodyPartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
             <element signature="method#deleteAttribute#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#changePassword#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#attributesVerification#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#signOut#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#init#0;class#BodyPartActivity#0" expanded="false" />
-            <element signature="class#9286:9866" expanded="false" />
             <element signature="method#handleTrustedDevice#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#updateDeviceStatus#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#trustedDeviceDialog#0;class#BodyPartActivity#0" expanded="false" />
-            <element signature="class#11814:12435" expanded="false" />
-            <element signature="class#12477:13104" expanded="false" />
-            <element signature="class#13153:13525" expanded="false" />
             <element signature="method#showUserDetail#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#showWaitDialog#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#showDialogMessage#0;class#BodyPartActivity#0" expanded="false" />
@@ -2859,6 +3510,7 @@
             <element signature="method#updateAttribute#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#showSettings#0;class#BodyPartActivity#0" expanded="false" />
             <element signature="method#addAttribute#0;class#BodyPartActivity#0" expanded="false" />
+            <marker date="1509065002000" expanded="true" signature="9712:9850" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -2873,8 +3525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/amazonaws/fitness/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2910,8 +3562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+        <state relative-caret-position="2670">
+          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding />
         </state>
       </provider>

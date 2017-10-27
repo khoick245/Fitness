@@ -156,21 +156,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-applinks/4.27.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
-        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-applinks-4.27.0_82ff9084d2c94b4135df2cdbe6a9b4f96f69948c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-messenger/4.27.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="2482bfd874e8b3927f4141105674ad392ff83698">
         <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-messenger-4.27.0_14cbeb8718dd910a50356f7c6419e005d0e932a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/exploded-aar/com.facebook.android/facebook-applinks/4.27.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-applinks-4.27.0_82ff9084d2c94b4135df2cdbe6a9b4f96f69948c.jar" />
     </item>
     <item
         is-multidex="false"
