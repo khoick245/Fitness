@@ -1,4 +1,4 @@
-#Thu Oct 26 17:47:01 PDT 2017
+#Thu Nov 09 11:51:06 PST 2017
 base.0=/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

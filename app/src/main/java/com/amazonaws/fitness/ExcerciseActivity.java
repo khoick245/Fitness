@@ -4,18 +4,20 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.os.AsyncTask;
+import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -31,12 +33,24 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GenericHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.UpdateAttributesHandler;
+import com.google.gson.Gson;
+import com.squareup.okhttp.MediaType;
+import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.Request;
+import com.squareup.okhttp.RequestBody;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+
+import static android.R.attr.data;
+import static android.R.attr.password;
 
 public class ExcerciseActivity extends AppCompatActivity {
 
@@ -86,6 +100,7 @@ public class ExcerciseActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        final String temp = excercisename;
         setContentView(R.layout.activity_excercise);
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -124,6 +139,50 @@ public class ExcerciseActivity extends AppCompatActivity {
         txtLevel.setText(level);
         txtRate.setText(rate);
         txtType.setText(type);
+
+        final EditText editText = (EditText) this.findViewById(R.id.edtJournal);
+
+        Button btnJournal = (Button) findViewById(R.id.btnJournal);
+        btnJournal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final String journal = editText.getText().toString();
+
+                new AsyncTask<Void, Void, Void>() {
+
+                    @Override
+                    protected Void doInBackground( Void... voids ) {
+                        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+                        Date date = new Date();
+
+                        JournalData objJournalData = new JournalData(AppHelper.getCurrUser(), dateFormat.format(date), Integer.parseInt(journal), getIntent().getStringExtra("bodypart"), temp);
+                        Gson gson = new Gson();
+                        String mapJsonStr = gson.toJson(objJournalData);
+
+                        OkHttpClient client = new OkHttpClient();
+                        MediaType mediaType = MediaType.parse("application/json");
+                        //RequestBody body = RequestBody.create(mediaType, "{\n  \"email\": \"sds\", \"dateworkout\": \"awdw\", \"noofwork\": 2, \"bodypart\": \"chest\", \"exercise\": \"sfef\"\n}");
+                        RequestBody body = RequestBody.create(mediaType, mapJsonStr);
+                        Request request = new Request.Builder()
+                                .url("https://b2kq977qb3.execute-api.us-west-2.amazonaws.com/prod/journal")
+                                .post(body)
+                                .addHeader("content-type", "application/json")
+                                .addHeader("cache-control", "no-cache")
+                                .addHeader("postman-token", "b4defd15-e4df-1367-f7c1-9c433886a27e")
+                                .build();
+                        try {
+                            com.squareup.okhttp.Response response = client.newCall(request).execute();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        return null;
+                    }
+                }.execute();
+
+                Toast.makeText(ExcerciseActivity.this, "Journal has been updated",Toast.LENGTH_LONG).show();
+                editText.setText("");
+            }
+        });
     }
 
 
@@ -176,8 +235,8 @@ public class ExcerciseActivity extends AppCompatActivity {
 
         @Override
         public void onFailure(Exception exception) {
-            closeWaitDialog();
-            showDialogMessage("Could not fetch user details!", AppHelper.formatException(exception), true);
+            //closeWaitDialog();
+            //showDialogMessage("Could not fetch user details!", AppHelper.formatException(exception), true);
         }
     };
 

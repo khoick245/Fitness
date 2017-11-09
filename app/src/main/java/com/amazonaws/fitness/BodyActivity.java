@@ -192,8 +192,8 @@ public class BodyActivity extends AppCompatActivity {
 
         @Override
         public void onFailure(Exception exception) {
-            closeWaitDialog();
-            showDialogMessage("Could not fetch user details!", AppHelper.formatException(exception), true);
+           // closeWaitDialog();
+            //showDialogMessage("Could not fetch user details!", AppHelper.formatException(exception), true);
         }
     };
 

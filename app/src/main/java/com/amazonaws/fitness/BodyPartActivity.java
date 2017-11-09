@@ -50,8 +50,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static android.R.id.list;
-
 public class BodyPartActivity extends AppCompatActivity {
     public static String urlConnection = null;
     private final String TAG="Bodypart";
@@ -80,7 +78,7 @@ public class BodyPartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         Intent intent= getIntent();
-        String bodypart = intent.getStringExtra("bodypart");
+        final String bodypart = intent.getStringExtra("bodypart");
 
         setContentView(R.layout.activity_body_activity);
 
@@ -118,12 +116,14 @@ public class BodyPartActivity extends AppCompatActivity {
                 //ProgressDialog.show(this, "Loading", "Wait while loading...");
             }
 
+            // get exercise name to display on listview
             final JSONObject jsonObject = new JSONObject(urlConnection);
             final JSONArray arr = jsonObject.getJSONArray("bodyPartInfors");
             ArrayList<String> chest_exercises = new ArrayList<String>();
             for (int i = 0; i < arr.length(); i++) {
                 JSONObject o = arr.getJSONObject(i);
                 chest_exercises.add(o.getString("exercisename"));
+                //chest_exercises.add(o.getString(""));
                 stringArr = new String[chest_exercises.size()];
                 stringArr = chest_exercises.toArray(stringArr);
             }
@@ -139,8 +139,10 @@ public class BodyPartActivity extends AppCompatActivity {
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     try {
                         Intent intent = new Intent(BodyPartActivity.this, ExcerciseActivity.class);
-                        JSONObject obj = arr.getJSONObject(position);
+                        JSONObject obj = arr.getJSONObject(position);   // get selected object and pass to exercise activity
                         intent.putExtra("exercise", obj.toString());
+                        intent.putExtra("bodypart", bodypart);
+                        intent.putExtra("exercisename", obj.getString("exercisename"));
                         startActivity(intent);
                     }catch (Exception e) {
                         // TODO Auto-generated catch block
@@ -247,10 +249,13 @@ public class BodyPartActivity extends AppCompatActivity {
     // Initialize this activity
     private void init() {
         // Get the user name
-        Bundle extras = getIntent().getExtras();
-        username = AppHelper.getCurrUser();
-        user = AppHelper.getPool().getUser(username);
-        getDetails();
+        try {
+            Bundle extras = getIntent().getExtras();
+            username = AppHelper.getCurrUser();
+            user = AppHelper.getPool().getUser(username);
+            getDetails();
+        }
+        catch (Exception ex){}
     }
 
 
@@ -267,8 +272,8 @@ public class BodyPartActivity extends AppCompatActivity {
 
         @Override
         public void onFailure(Exception exception) {
-            closeWaitDialog();
-            showDialogMessage("Could not fetch user details!", AppHelper.formatException(exception), true);
+//            closeWaitDialog();
+//            showDialogMessage("Could not fetch user details!", AppHelper.formatException(exception), true);
         }
     };
 

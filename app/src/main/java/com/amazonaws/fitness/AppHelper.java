@@ -152,6 +152,8 @@ public class AppHelper {
         thisDeviceTrustState = false;
     }
 
+    //public static String getEmail(){return userDe}
+
     public static CognitoUserPool getPool() {
         return userPool;
     }

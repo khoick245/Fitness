@@ -22,19 +22,18 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.AsyncTask;
+import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.support.design.widget.NavigationView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -50,19 +49,6 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.continuations.Mult
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.continuations.NewPasswordContinuation;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.AuthenticationHandler;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.ForgotPasswordHandler;
-
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Map;
-
-import com.facebook.AccessToken;
-import com.facebook.CallbackManager;
-import com.facebook.FacebookCallback;
-import com.facebook.FacebookException;
-import com.facebook.FacebookSdk;
-import com.facebook.login.LoginManager;
-import com.facebook.login.LoginResult;
-import com.facebook.login.widget.LoginButton;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -70,14 +56,14 @@ import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
-import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
+import com.facebook.login.widget.LoginButton;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import static android.R.attr.name;
-import static com.amazonaws.fitness.R.id.textView;
+import java.util.Locale;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG="MainActivity";
@@ -92,8 +78,11 @@ public class MainActivity extends AppCompatActivity {
     // Screen fields
     private EditText inUsername;
     private EditText inPassword;
-    //private Button btnLoginFacebook;
+
+    //Fb login
+    LoginButton loginButton;
     CallbackManager callbackManager;
+
 
     //Continuations
     private MultiFactorAuthenticationContinuation multiFactorAuthenticationContinuation;
@@ -132,6 +121,37 @@ public class MainActivity extends AppCompatActivity {
         AppHelper.init(getApplicationContext());
         initApp();
         findCurrent();
+
+
+
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        loginButton = (LoginButton) findViewById(R.id.fb_log_in);
+
+        callbackManager = CallbackManager.Factory.create();
+        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+            @Override
+            public void onSuccess(LoginResult loginResult) {
+                Toast.makeText(MainActivity.this, "SUCCESS", Toast.LENGTH_SHORT).show();
+                String token = AccessToken.getCurrentAccessToken().getToken();
+
+                startActivity(new Intent(MainActivity.this, BodyActivity.class));
+                //new FacebookCognitoSync().execute(token);//Cognito integration that works as an async task in the background
+
+
+
+            }
+
+            @Override
+            public void onCancel() {
+                Toast.makeText(MainActivity.this, "CANCEL", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onError(FacebookException error) {
+                Toast.makeText(MainActivity.this, "ERROR", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -226,10 +246,9 @@ public class MainActivity extends AppCompatActivity {
                     continueWithFirstTimeSignIn();
                 }
                 break;
-            case 7:
-                //New password
+            case 64206:
+                //fb
                 callbackManager.onActivityResult(requestCode, resultCode, data);
-                break;
         }
     }
 
