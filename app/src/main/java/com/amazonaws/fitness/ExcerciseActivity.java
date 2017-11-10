@@ -181,6 +181,7 @@ public class ExcerciseActivity extends AppCompatActivity {
 
                 Toast.makeText(ExcerciseActivity.this, "JournalActivity has been updated",Toast.LENGTH_LONG).show();
                 editText.setText("");
+                editText.clearFocus();
             }
         });
     }

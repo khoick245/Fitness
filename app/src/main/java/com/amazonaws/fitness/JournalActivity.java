@@ -15,9 +15,13 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
+import android.widget.TableRow.LayoutParams;
 import android.widget.TextView;
 
 import com.amazonaws.fitness.fitnessjournal.Body;
@@ -39,7 +43,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import android.widget.TableRow.LayoutParams;
+import static com.amazonaws.fitness.R.id.btnJournalFilter;
 
 public class JournalActivity extends AppCompatActivity {
     public static String urlConnection = null;
@@ -90,59 +94,138 @@ public class JournalActivity extends AppCompatActivity {
         TextView navHeaderSubTitle = (TextView) navigationHeader.findViewById(R.id.textViewNavUserSub);
         navHeaderSubTitle.setText(username);
 
-        try {
-            String urlToServer = "https://b2kq977qb3.execute-api.us-west-2.amazonaws.com/prod/journal?email="+AppHelper.getCurrUser();
-            new JournalActivity.JSONTask().execute(urlToServer);
-            while (urlConnection == null){
+        final EditText edtJournalFilter = (EditText)findViewById(R.id.edtJournalFilter);
+
+
+        String urlToServer = "https://b2kq977qb3.execute-api.us-west-2.amazonaws.com/prod/journal?email="+AppHelper.getCurrUser();
+        new JournalActivity.JSONTask().execute(urlToServer);
+        while (urlConnection == null){
+        }
+        AddData();
+
+        Button btnRefreshFilter = (Button) findViewById(R.id.btnRefreshJournal);
+        btnRefreshFilter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                int count = tableLayout.getChildCount();
+                for (int i = 1; i < count; i++) {
+                    View child = tableLayout.getChildAt(i);
+                    if (child instanceof TableRow) ((ViewGroup) child).removeAllViews();
+                }
+
+                AddData();
             }
+        });
 
-            final JSONObject jsonObject = new JSONObject(urlConnection);
-            final JSONArray jsonArrayJournal = jsonObject.getJSONArray("journalList");
-            for(int i=0; i< jsonArrayJournal.length(); i++){
-                JSONObject objJsonJournal = jsonArrayJournal.getJSONObject(i);
+        Button btnJournalFilter = (Button) findViewById(R.id.btnJournalFilter);
+        btnJournalFilter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-                tableRow = new TableRow(this);
-                tableRow.setLayoutParams(new LayoutParams(
-                        LayoutParams.WRAP_CONTENT,
-                        LayoutParams.WRAP_CONTENT));
+                int count = tableLayout.getChildCount();
+                for (int i = 1; i < count; i++) {
+                    View child = tableLayout.getChildAt(i);
+                    if (child instanceof TableRow) ((ViewGroup) child).removeAllViews();
+                }
 
-                tvDateWorkOut = new TextView(this);
-                String dateworkout = objJsonJournal.getString("dateworkout");
-                tvDateWorkOut.setText(dateworkout.substring(0, dateworkout.indexOf(' ')));
-                tvDateWorkOut.setTextSize(10);
-                tableRow.addView(tvDateWorkOut);
+                try {
+                    final JSONObject jsonObject = new JSONObject(urlConnection);
+                    final JSONArray jsonArrayJournal = jsonObject.getJSONArray("journalList");
+                    for (int i = 0; i < jsonArrayJournal.length(); i++) {
+                        try {
+                            String filterContent = edtJournalFilter.getText().toString().trim();
+                            if (jsonArrayJournal.getJSONObject(i).getString("bodypart").equals(filterContent)) {
+                                //System.out.println("bodypart:" + jsonArrayJournal.getJSONObject(i).getString("bodypart"));
+                                JSONObject objJsonJournal = jsonArrayJournal.getJSONObject(i);
+                                //Toast.makeText(JournalActivity.this, "" +i +edtJournalFilter.getText(),Toast.LENGTH_LONG).show();
+                                tableRow = new TableRow(JournalActivity.this);
+                                tableRow.setLayoutParams(new LayoutParams(
+                                        LayoutParams.WRAP_CONTENT,
+                                        LayoutParams.WRAP_CONTENT));
 
-                tvNoOfWork = new TextView(this);
-                tvNoOfWork.setText(objJsonJournal.getString("noofwork"));
-                tvNoOfWork.setTextSize(10);
-                tableRow.addView(tvNoOfWork);
+                                tvDateWorkOut = new TextView(JournalActivity.this);
+                                String dateworkout = objJsonJournal.getString("dateworkout");
+                                tvDateWorkOut.setText(dateworkout.substring(0, dateworkout.indexOf(' ')));
+                                tvDateWorkOut.setTextSize(10);
+                                tableRow.addView(tvDateWorkOut);
 
-                tvExercise = new TextView(this);
-                tvExercise.setText(objJsonJournal.getString("exercise"));
-                tvExercise.setTextSize(10);
-                tableRow.addView(tvExercise);
+                                tvNoOfWork = new TextView(JournalActivity.this);
+                                tvNoOfWork.setText(objJsonJournal.getString("noofwork"));
+                                tvNoOfWork.setTextSize(10);
+                                tableRow.addView(tvNoOfWork);
 
-                tvBodyPart = new TextView(this);
-                tvBodyPart.setText(objJsonJournal.getString("bodypart"));
-                tvBodyPart.setTextSize(10);
-                tableRow.addView(tvBodyPart);
+                                tvExercise = new TextView(JournalActivity.this);
+                                tvExercise.setText(objJsonJournal.getString("exercise"));
+                                tvExercise.setTextSize(10);
+                                tableRow.addView(tvExercise);
 
-                tableLayout.addView(tableRow, new TableLayout.LayoutParams(
-                        LayoutParams.WRAP_CONTENT,
-                        LayoutParams.WRAP_CONTENT));
-            }
+                                tvBodyPart = new TextView(JournalActivity.this);
+                                tvBodyPart.setText(objJsonJournal.getString("bodypart"));
+                                tvBodyPart.setTextSize(10);
+                                tableRow.addView(tvBodyPart);
 
-            } catch (JSONException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+                                tableLayout.addView(tableRow, new TableLayout.LayoutParams(
+                                        LayoutParams.WRAP_CONTENT,
+                                        LayoutParams.WRAP_CONTENT));
+                            }
+                        } catch (JSONException ex) {
+                            ex.printStackTrace();
+                        }
+                    }
+                    }catch(JSONException e){
+                        e.printStackTrace();
+                    }catch(Exception e){
+                        e.printStackTrace();
+                    }
 
+                }
+        });
     }
 
     public void AddData(){
+        try{
+        final JSONObject jsonObject = new JSONObject(urlConnection);
+        final JSONArray jsonArrayJournal = jsonObject.getJSONArray("journalList");
+        for(int i=0; i< jsonArrayJournal.length(); i++){
+            JSONObject objJsonJournal = jsonArrayJournal.getJSONObject(i);
 
+            tableRow = new TableRow(this);
+            tableRow.setLayoutParams(new LayoutParams(
+                    LayoutParams.WRAP_CONTENT,
+                    LayoutParams.WRAP_CONTENT));
+
+            tvDateWorkOut = new TextView(this);
+            String dateworkout = objJsonJournal.getString("dateworkout");
+            tvDateWorkOut.setText(dateworkout.substring(0, dateworkout.indexOf(' ')));
+            tvDateWorkOut.setTextSize(10);
+            tableRow.addView(tvDateWorkOut);
+
+            tvNoOfWork = new TextView(this);
+            tvNoOfWork.setText(objJsonJournal.getString("noofwork"));
+            tvNoOfWork.setTextSize(10);
+            tableRow.addView(tvNoOfWork);
+
+            tvExercise = new TextView(this);
+            tvExercise.setText(objJsonJournal.getString("exercise"));
+            tvExercise.setTextSize(10);
+            tableRow.addView(tvExercise);
+
+            tvBodyPart = new TextView(this);
+            tvBodyPart.setText(objJsonJournal.getString("bodypart"));
+            tvBodyPart.setTextSize(10);
+            tableRow.addView(tvBodyPart);
+
+            tableLayout.addView(tableRow, new TableLayout.LayoutParams(
+                    LayoutParams.WRAP_CONTENT,
+                    LayoutParams.WRAP_CONTENT));
+        }
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     static class JSONTask extends AsyncTask<String,String,String>

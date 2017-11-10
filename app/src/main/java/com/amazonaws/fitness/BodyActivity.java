@@ -121,12 +121,9 @@ public class BodyActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //new BodyPartActivity.JSONTask().execute("https://o3qfj6k4n5.execute-api.us-west-2.amazonaws.com/prod/test");
-                try {
-                    TimeUnit.SECONDS.sleep(1);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                Toast.makeText(BodyActivity.this, urlString, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(BodyActivity.this, BodyPartActivity.class);
+                intent.putExtra("bodypart", "Shoulder");
+                startActivity(intent);
             }
         });
 

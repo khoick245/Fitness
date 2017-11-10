@@ -63,4 +63,32 @@
 
         </TableLayout>
     </ScrollView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:ems="10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="131dp"
+        android:id="@+id/edtJournalFilter" />
+
+    <Button
+        android:text="Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/edtJournalFilter"
+        android:layout_marginBottom="42dp"
+        android:id="@+id/btnJournalFilter" />
+
+    <Button
+        android:text="Refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtJournalFilter"
+        android:layout_alignStart="@+id/edtJournalFilter"
+        android:id="@+id/btnRefreshJournal" />
 </RelativeLayout>
