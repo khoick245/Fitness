@@ -179,7 +179,7 @@ public class ExcerciseActivity extends AppCompatActivity {
                     }
                 }.execute();
 
-                Toast.makeText(ExcerciseActivity.this, "Journal has been updated",Toast.LENGTH_LONG).show();
+                Toast.makeText(ExcerciseActivity.this, "JournalActivity has been updated",Toast.LENGTH_LONG).show();
                 editText.setText("");
             }
         });

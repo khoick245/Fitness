@@ -77,7 +77,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".Journal"></activity>
+        <activity android:name=".JournalActivity"></activity>
     </application>
 
 </manifest>

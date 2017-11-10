@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 09 20:28:22 PST 2017
+#Thu Nov 09 22:24:23 PST 2017
 20.base=/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
 143.base=/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/resources-debug.ap_
 439.set=JAVA_RESOURCE

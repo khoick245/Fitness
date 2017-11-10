@@ -24,7 +24,7 @@
     android:layout_marginLeft="@dimen/activity_horizontal_margin"
     android:layout_marginRight="@dimen/activity_horizontal_margin"
     android:layout_marginTop="@dimen/activity_vertical_margin"
-    tools:context="com.amazonaws.fitness.Journal">
+    tools:context="com.amazonaws.fitness.JournalActivity">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -33,8 +33,34 @@
         <TableLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:stretchColumns="0,1"
+            android:stretchColumns="*"
             android:id="@+id/maintable" >
+
+            <TableRow
+                android:background="#607D8B"
+                android:padding="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Date" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Work" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Exercise" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Body Part" />
+            </TableRow>
+
         </TableLayout>
     </ScrollView>
 </RelativeLayout>
