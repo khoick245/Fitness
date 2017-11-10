@@ -10,32 +10,5 @@
         sha1="9cd61d269c88f9fb0eb36cea1efcd596ab74772f">
         <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/commons-codec-1.7_ecaa41a0bfebfcb710015aecf262ce42e605476e.jar" />
     </item>
-    <item
-        is-multidex="false"
-        jar="/Users/khoinguyen/.android/build-cache/3cb910c628293e30859a8cefec6ebc881dcda566/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
-        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/classes_d698003f619bba5c9fdee374cca7c23cfbc9d195.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="287f4dec8dc2d40a238b12562b437438499cd2fb">
-        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/classes_7b8489db124a17353ec6a47d8731636f642305e6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/khoinguyen/.android/build-cache/4862ec25f3539e145385f085c213ef25abd8b67d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ab6e491b5d7bda2f47991a30f6bfe9a8b134ff8b">
-        <dex dex="/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/pre-dexed/debug/classes_223f37a4039f26fac9ec212f480db7e5f9a144ec.jar" />
-    </item>
 
 </items>

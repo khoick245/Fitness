@@ -72,16 +72,16 @@
         "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/content_bodypart.xml",
-        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/content_bodypart.xml"
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/content_add_attribute.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/content_add_attribute.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/com_facebook_smart_device_dialog_fragment.xml",
         "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/layout/com_facebook_smart_device_dialog_fragment.xml"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/content_add_attribute.xml",
-        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/content_add_attribute.xml"
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/content_bodypart.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/content_bodypart.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/content_exercise.xml",
@@ -236,6 +236,10 @@
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/activity_sign_up_confirm.xml"
     },
     {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/activity_journal.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/activity_journal.xml"
+    },
+    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/com_facebook_tooltip_bubble.xml",
         "source": "/Users/khoinguyen/.android/build-cache/3cb910c628293e30859a8cefec6ebc881dcda566/output/res/layout/com_facebook_tooltip_bubble.xml"
     },
@@ -262,6 +266,10 @@
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/content_journal.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/content_journal.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",

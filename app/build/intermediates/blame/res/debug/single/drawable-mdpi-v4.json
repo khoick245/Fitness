@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/com_facebook_tooltip_blue_xout.png",
         "source": "/Users/khoinguyen/.android/build-cache/3cb910c628293e30859a8cefec6ebc881dcda566/output/res/drawable-mdpi-v4/com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
@@ -208,12 +208,12 @@
         "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/com_facebook_tooltip_blue_background.9.png",
         "source": "/Users/khoinguyen/.android/build-cache/3cb910c628293e30859a8cefec6ebc881dcda566/output/res/drawable-mdpi-v4/com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png",
+        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png",

@@ -8,20 +8,20 @@
         "source": "/Users/khoinguyen/.android/build-cache/3cb910c628293e30859a8cefec6ebc881dcda566/output/res/drawable-hdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/com_facebook_button_icon_blue.png",
-        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable-hdpi-v4/com_facebook_button_icon_blue.png"
-    },
-    {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
         "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/com_facebook_button_icon_blue.png",
+        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable-hdpi-v4/com_facebook_button_icon_blue.png"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",

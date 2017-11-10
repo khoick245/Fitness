@@ -141,6 +141,18 @@ public class BodyActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnJournal = (Button) findViewById(R.id.btnJournal);
+        btnJournal.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                //new BodyPartActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
+                Intent intent = new Intent(BodyActivity.this, Journal.class);
+                //intent.putExtra("bodypart", "Chest");
+                startActivity(intent);
+            }
+        });
     }
 
     // Delete attribute

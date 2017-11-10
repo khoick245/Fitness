@@ -48,12 +48,12 @@
         "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/com_facebook_button_icon_blue.png",
-        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable-xxhdpi-v4/com_facebook_button_icon_blue.png"
-    },
-    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
         "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/com_facebook_button_icon_blue.png",
+        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable-xxhdpi-v4/com_facebook_button_icon_blue.png"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
