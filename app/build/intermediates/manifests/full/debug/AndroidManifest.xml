@@ -88,6 +88,7 @@
             android:value="@string/facebook_app_id" />
 
         <activity android:name="com.amazonaws.fitness.JournalActivity" />
+        <activity android:name="com.amazonaws.fitness.MacrosActivity" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"

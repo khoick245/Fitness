@@ -84,6 +84,10 @@
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/content_bodypart.xml"
     },
     {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/activity_macros.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/activity_macros.xml"
+    },
+    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/content_exercise.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/content_exercise.xml"
     },
@@ -238,6 +242,10 @@
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/activity_journal.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/activity_journal.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/content_macros.xml",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/layout/content_macros.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout/com_facebook_tooltip_bubble.xml",

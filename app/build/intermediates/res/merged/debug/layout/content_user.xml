@@ -150,5 +150,13 @@
         android:layout_alignParentEnd="true"
         android:layout_alignStart="@+id/quadButton" />
 
+    <Button
+        android:text="Macros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMacros"
+        android:layout_below="@+id/btnJournal"
+        android:layout_alignEnd="@+id/calfButton" />
+
 
 </RelativeLayout>

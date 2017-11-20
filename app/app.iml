@@ -103,8 +103,8 @@
     <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
     <orderEntry type="library" exported="" name="okio-1.6.0" level="project" />
     <orderEntry type="library" exported="" name="aws-android-sdk-cognitoidentityprovider-2.3.2" level="project" />
+    <orderEntry type="library" exported="" name="facebook-common-4.28.0" level="project" />
     <orderEntry type="library" exported="" name="constraint-layout-1.0.2" level="project" />
-    <orderEntry type="library" exported="" name="facebook-common-4.27.0" level="project" />
     <orderEntry type="library" exported="" name="okhttp-2.5.0" level="project" />
     <orderEntry type="library" exported="" name="bolts-tasks-1.4.0" level="project" />
     <orderEntry type="library" exported="" name="core-3.3.0" level="project" />
@@ -116,9 +116,9 @@
     <orderEntry type="library" exported="" name="bolts-android-1.4.0" level="project" />
     <orderEntry type="library" exported="" name="support-core-utils-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="support-fragment-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="facebook-core-4.28.0" level="project" />
     <orderEntry type="library" exported="" name="commons-codec-1.7" level="project" />
-    <orderEntry type="library" exported="" name="facebook-core-4.27.0" level="project" />
-    <orderEntry type="library" exported="" name="facebook-login-4.27.0" level="project" />
+    <orderEntry type="library" exported="" name="facebook-login-4.28.0" level="project" />
     <orderEntry type="library" exported="" name="constraint-layout-solver-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="httpcore-4.4.1" level="project" />
     <orderEntry type="library" exported="" name="design-23.1.1" level="project" />

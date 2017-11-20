@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2013-2016 Amazon.com,
+  ~ Inc. or its affiliates. All Rights Reserved.
+  ~
+  ~ Licensed under the Amazon Software License (the "License").
+  ~ You may not use this file except in compliance with the
+  ~ License. A copy of the License is located at
+  ~
+  ~     http://aws.amazon.com/asl/
+  ~
+  ~ or in the "license" file accompanying this file. This file is
+  ~ distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+  ~ CONDITIONS OF ANY KIND, express or implied. See the License
+  ~ for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    tools:context="com.amazonaws.fitness.MacrosActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/edtAge"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:text="Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="11dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdgSex"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignStart="@+id/edtAge">
+
+        <RadioButton
+            android:text="Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbFemale"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbMale"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/rdgSex"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/edtHeight" />
+
+    <TextView
+        android:text="Height(ft.in)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_alignBottom="@+id/edtHeight"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:text="Weight(lb)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/edtHeight"
+        android:layout_toEndOf="@+id/textView8"
+        android:id="@+id/edtWeight" />
+
+    <TextView
+        android:text="Your Activity Level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView11" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rdgActivityLevel" >
+
+        <RadioButton
+            android:text="I am sedentary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbSedentary"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="I am lightly active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbLightlyActivity"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="I am moderately active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbModeratelyActivity"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="I am very active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbVeryActivity"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="I am super active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbSuperActivity"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+    <Button
+        android:text="Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMacrosCalculate"
+        android:layout_below="@+id/rdgActivityLevel"
+        android:layout_alignEnd="@+id/rdgActivityLevel" />
+
+    <TextView
+        android:text="*YOUR BMR: 0 CALORIES/DAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBMR"
+        android:layout_below="@+id/btnMacrosCalculate"
+        android:layout_alignStart="@+id/rdgActivityLevel" />
+
+</RelativeLayout>

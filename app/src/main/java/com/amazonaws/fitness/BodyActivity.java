@@ -52,9 +52,6 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.UpdateAtt
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import static com.amazonaws.fitness.fitnessjournal.Body.urlString;
 
 public class BodyActivity extends AppCompatActivity {
     private final String TAG="MainActivity";
@@ -150,111 +147,18 @@ public class BodyActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
 
-    // Delete attribute
-    private void deleteAttribute(String attributeName) {
-        showWaitDialog("Deleting...");
-        List<String> attributesToDelete = new ArrayList<>();
-        attributesToDelete.add(attributeName);
-        AppHelper.getPool().getUser(AppHelper.getCurrUser()).deleteAttributesInBackground(attributesToDelete, deleteHandler);
-    }
+        Button btnMacros = (Button) findViewById(R.id.btnMacros);
+        btnMacros.setOnClickListener(new View.OnClickListener() {
 
-    // Change user password
-    private void changePassword() {
-        Intent changePssActivity = new Intent(this, ChangePasswordActivity.class);
-        startActivity(changePssActivity);
-    }
-
-    // Verify attributes
-    private void attributesVerification() {
-        Intent attrbutesActivity = new Intent(this,VerifyActivity.class);
-        startActivityForResult(attrbutesActivity, 21);
-    }
-
-    // Sign out user
-    private void signOut() {
-        user.signOut();
-        exit();
-    }
-
-    // Initialize this activity
-    private void init() {
-        // Get the user name
-        Bundle extras = getIntent().getExtras();
-        username = AppHelper.getCurrUser();
-        user = AppHelper.getPool().getUser(username);
-        getDetails();
-    }
-
-
-    GetDetailsHandler detailsHandler = new GetDetailsHandler() {
-        @Override
-        public void onSuccess(CognitoUserDetails cognitoUserDetails) {
-            closeWaitDialog();
-            // Store details in the AppHandler
-            AppHelper.setUserDetails(cognitoUserDetails);
-            showAttributes();
-            // Trusted devices?
-            handleTrustedDevice();
-        }
-
-        @Override
-        public void onFailure(Exception exception) {
-           // closeWaitDialog();
-            //showDialogMessage("Could not fetch user details!", AppHelper.formatException(exception), true);
-        }
-    };
-
-    private void handleTrustedDevice() {
-        CognitoDevice newDevice = AppHelper.getNewDevice();
-        if (newDevice != null) {
-            AppHelper.newDevice(null);
-            trustedDeviceDialog(newDevice);
-        }
-    }
-
-    private void updateDeviceStatus(CognitoDevice device) {
-        device.rememberThisDeviceInBackground(trustedDeviceHandler);
-    }
-
-    private void trustedDeviceDialog(final CognitoDevice newDevice) {
-        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Remember this device?");
-        //final EditText input = new EditText(BodyActivity.this);
-
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.MATCH_PARENT);
-
-        //input.setLayoutParams(lp);
-        //input.requestFocus();
-        //builder.setView(input);
-
-        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialog, int which) {
-                try {
-                    //String newValue = input.getText().toString();
-                    showWaitDialog("Remembering this device...");
-                    updateDeviceStatus(newDevice);
-                    userDialog.dismiss();
-                } catch (Exception e) {
-                    // Log failure
-                }
-            }
-        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                try {
-                    userDialog.dismiss();
-                } catch (Exception e) {
-                    // Log failure
-                }
+            public void onClick(View v) {
+                //new BodyPartActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
+                Intent intent = new Intent(BodyActivity.this, MacrosActivity.class);
+                //intent.putExtra("bodypart", "Chest");
+                startActivity(intent);
             }
         });
-        userDialog = builder.create();
-        userDialog.show();
     }
 
     // Callback handlers
@@ -312,6 +216,49 @@ public class BodyActivity extends AppCompatActivity {
             showDialogMessage("Failed to update device status", AppHelper.formatException(exception), true);
         }
     };
+
+    private void updateDeviceStatus(CognitoDevice device) {
+        device.rememberThisDeviceInBackground(trustedDeviceHandler);
+    }
+
+    private void trustedDeviceDialog(final CognitoDevice newDevice) {
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Remember this device?");
+        //final EditText input = new EditText(BodyActivity.this);
+
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.MATCH_PARENT);
+
+        //input.setLayoutParams(lp);
+        //input.requestFocus();
+        //builder.setView(input);
+
+        builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                try {
+                    //String newValue = input.getText().toString();
+                    showWaitDialog("Remembering this device...");
+                    updateDeviceStatus(newDevice);
+                    userDialog.dismiss();
+                } catch (Exception e) {
+                    // Log failure
+                }
+            }
+        }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                try {
+                    userDialog.dismiss();
+                } catch (Exception e) {
+                    // Log failure
+                }
+            }
+        });
+        userDialog = builder.create();
+        userDialog.show();
+    }
 
     private void showUserDetail(final String attributeType, final String attributeValue) {
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -556,6 +503,68 @@ public class BodyActivity extends AppCompatActivity {
     private void addAttribute() {
         Intent addAttrbutesActivity = new Intent(this,AddAttributeActivity.class);
         startActivityForResult(addAttrbutesActivity, 22);
+    }
+
+    // Delete attribute
+    private void deleteAttribute(String attributeName) {
+        showWaitDialog("Deleting...");
+        List<String> attributesToDelete = new ArrayList<>();
+        attributesToDelete.add(attributeName);
+        AppHelper.getPool().getUser(AppHelper.getCurrUser()).deleteAttributesInBackground(attributesToDelete, deleteHandler);
+    }
+
+    // Change user password
+    private void changePassword() {
+        Intent changePssActivity = new Intent(this, ChangePasswordActivity.class);
+        startActivity(changePssActivity);
+    }
+
+    // Verify attributes
+    private void attributesVerification() {
+        Intent attrbutesActivity = new Intent(this,VerifyActivity.class);
+        startActivityForResult(attrbutesActivity, 21);
+    }
+
+    // Sign out user
+    private void signOut() {
+        user.signOut();
+        exit();
+    }
+
+    // Initialize this activity
+    private void init() {
+        // Get the user name
+        Bundle extras = getIntent().getExtras();
+        username = AppHelper.getCurrUser();
+        user = AppHelper.getPool().getUser(username);
+        getDetails();
+    }
+
+
+    GetDetailsHandler detailsHandler = new GetDetailsHandler() {
+        @Override
+        public void onSuccess(CognitoUserDetails cognitoUserDetails) {
+            closeWaitDialog();
+            // Store details in the AppHandler
+            AppHelper.setUserDetails(cognitoUserDetails);
+            showAttributes();
+            // Trusted devices?
+            handleTrustedDevice();
+        }
+
+        @Override
+        public void onFailure(Exception exception) {
+            // closeWaitDialog();
+            //showDialogMessage("Could not fetch user details!", AppHelper.formatException(exception), true);
+        }
+    };
+
+    private void handleTrustedDevice() {
+        CognitoDevice newDevice = AppHelper.getNewDevice();
+        if (newDevice != null) {
+            AppHelper.newDevice(null);
+            trustedDeviceDialog(newDevice);
+        }
     }
 
 
