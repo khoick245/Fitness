@@ -89,6 +89,8 @@
 
         <activity android:name="com.amazonaws.fitness.JournalActivity" />
         <activity android:name="com.amazonaws.fitness.MacrosActivity" />
+        <activity android:name="com.amazonaws.fitness.TimerActivity" />
+        <activity android:name="com.amazonaws.fitness.TimerListActivity" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"

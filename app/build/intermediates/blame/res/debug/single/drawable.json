@@ -32,12 +32,12 @@
         "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable/com_facebook_auth_dialog_background.xml"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/button_selector.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/button_selector.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",

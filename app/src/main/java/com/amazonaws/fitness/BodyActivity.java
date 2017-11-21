@@ -159,6 +159,18 @@ public class BodyActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnTimer = (Button) findViewById(R.id.btnTimer);
+        btnTimer.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                //new BodyPartActivity.JSONTask().execute("https://7mbivmda6c.execute-api.us-west-2.amazonaws.com/prod/bodypartresource?partname=Chest");
+                Intent intent = new Intent(BodyActivity.this, TimerActivity.class);
+                //intent.putExtra("bodypart", "Chest");
+                startActivity(intent);
+            }
+        });
     }
 
     // Callback handlers

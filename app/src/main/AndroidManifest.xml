@@ -78,7 +78,9 @@
             android:value="@string/facebook_app_id" />
 
         <activity android:name=".JournalActivity" />
-        <activity android:name=".MacrosActivity"></activity>
+        <activity android:name=".MacrosActivity" />
+        <activity android:name=".TimerActivity" />
+        <activity android:name=".TimerListActivity"></activity>
     </application>
 
 </manifest>

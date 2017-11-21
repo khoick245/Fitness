@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:2:1-84:12
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:2:1-86:12
 	package
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:8:5-82:19
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:8:5-84:19
 MERGED from [com.android.support:design:23.1.1] /Users/khoinguyen/.android/build-cache/2cf49270eddb55f4c5979b2fb32f4eee0c573386/output/AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.android:facebook-login:4.28.0] /Users/khoinguyen/.android/build-cache/3cb910c628293e30859a8cefec6ebc881dcda566/output/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-common:4.28.0] /Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/AndroidManifest.xml:28:5-34:19
@@ -182,9 +182,17 @@ ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:80:19-50
 activity#com.amazonaws.fitness.MacrosActivity
-ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:81:9-61
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:81:9-52
 	android:name
 		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:81:19-49
+activity#com.amazonaws.fitness.TimerActivity
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:82:9-51
+	android:name
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:82:19-48
+activity#com.amazonaws.fitness.TimerListActivity
+ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:83:9-64
+	android:name
+		ADDED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml:83:19-52
 uses-sdk
 INJECTED from /Users/khoinguyen/Documents/492B/Fitness/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:23.1.1] /Users/khoinguyen/.android/build-cache/2cf49270eddb55f4c5979b2fb32f4eee0c573386/output/AndroidManifest.xml:20:5-43
