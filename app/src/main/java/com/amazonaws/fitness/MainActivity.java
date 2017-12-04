@@ -136,9 +136,6 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(new Intent(MainActivity.this, BodyActivity.class));
                 //new FacebookCognitoSync().execute(token);//Cognito integration that works as an async task in the background
-
-
-
             }
 
             @Override
@@ -544,6 +541,7 @@ public class MainActivity extends AppCompatActivity {
         public void onSuccess(CognitoUserSession cognitoUserSession, CognitoDevice device) {
             Log.e(TAG, "Auth Success");
             AppHelper.setCurrSession(cognitoUserSession);
+            String idToken = cognitoUserSession.getIdToken().getJWTToken();
             AppHelper.newDevice(device);
             closeWaitDialog();
             launchUser();

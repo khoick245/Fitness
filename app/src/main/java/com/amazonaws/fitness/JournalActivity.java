@@ -30,6 +30,11 @@ import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUser;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserDetails;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.CognitoUserSession;
 import com.amazonaws.mobileconnectors.cognitoidentityprovider.handlers.GetDetailsHandler;
+import com.google.gson.Gson;
+import com.squareup.okhttp.MediaType;
+import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.Request;
+import com.squareup.okhttp.RequestBody;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -42,6 +47,9 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import static com.amazonaws.fitness.R.id.btnJournalFilter;
 
@@ -97,8 +105,48 @@ public class JournalActivity extends AppCompatActivity {
         final EditText edtJournalFilter = (EditText)findViewById(R.id.edtJournalFilter);
 
 
-        String urlToServer = "https://b2kq977qb3.execute-api.us-west-2.amazonaws.com/prod/journal?email="+AppHelper.getCurrUser();
-        new JournalActivity.JSONTask().execute(urlToServer);
+//        String urlToServer = "https://b2kq977qb3.execute-api.us-west-2.amazonaws.com/prod/journal?email="+AppHelper.getCurrUser();
+//        new JournalActivity.JSONTask().execute(urlToServer);
+//        while (urlConnection == null){
+//        }
+//        AddData();
+        new AsyncTask<Void, Void, Void>() {
+
+            @Override
+            protected Void doInBackground( Void... voids ) {
+                OkHttpClient client = new OkHttpClient();
+
+                MediaType mediaType = MediaType.parse("application/octet-stream");
+                RequestBody body = RequestBody.create(mediaType, "{\n  \"email\": \"sds\", \"dateworkout\": \"awdw\", \"noofwork\": 2, \"bodypart\": \"chest\", \"exercise\": \"sfef\"\n}");
+                Request request = new Request.Builder()
+                        .url("https://b2kq977qb3.execute-api.us-west-2.amazonaws.com/prod/journal?email=khoi1")
+                        .get()
+                        .addHeader("authorization", "eyJraWQiOiJ0TmxcLzJneDJNVlNQbmNFTUxFVGNCNVpIaXlIcEI0c0dUcmViQjdmVUE0UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJlMDJiZDllMC00YzZlLTRhNzUtOWNjNi0zYjllNGE4ZWRhMTQiLCJhdWQiOiI2bmJtbTc3YzBpaDE2bnNxODQ4ZXBxMmRhYyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjQwNzA1Y2E2LWQ4YzItMTFlNy1iNjRhLTc5MWMyYTVkZjdmNCIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTEyMzcxNDQ3LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl8wSXAyeEFERUUiLCJjb2duaXRvOnVzZXJuYW1lIjoia2hvaTEiLCJleHAiOjE1MTIzNzUwNDcsImlhdCI6MTUxMjM3MTQ0NywiZW1haWwiOiJraG9pMDV0MkBnbWFpbC5jb20ifQ.Rzl3Eiu4bH5ujppqZX86Hi3rFMRqPTaRQd6JfCeJtvAqf78XWyvneI6SnG2z2EPLja5owIO0pBZgYaLBZS5zU_a0bnkO64dgIaRvoGRDtOv8R7iC_fO1oNwkmFm1cKTli0lwMVb77rSb3H3-RVmoc-KAE2HHZSWtGIozgGVU-yzJyaSKTlK0PYjGhnr5a4zuYOrIezdgzMwT7Jig-oswvvtt3fElP-Y_QZuYXrhYOGGAAAWHdqp-AljFAR6xNWVyHfXhXcNaSfkWKRa0v9SQDmoZtcSylRumGLemz3hP-a_qwEI0iioFEgmXawWfHSfOeLUBme_MPYnrBwnoXo_PCQ")
+                        .addHeader("cache-control", "no-cache")
+                        .addHeader("postman-token", "023bec72-5f16-a1d1-2d51-76a1ea431dff")
+                        .build();
+                try {
+                    com.squareup.okhttp.Response response = client.newCall(request).execute();
+                    BufferedReader rd = new BufferedReader(new InputStreamReader(response.body().byteStream()));
+
+                    StringBuffer result = new StringBuffer();
+                    String line = "";
+                    while ((line = rd.readLine()) != null) {
+                        result.append(line);
+                    }
+
+                    JSONObject o = new JSONObject(result.toString());
+                    urlConnection = o.toString();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                return null;
+            }
+        }.execute();
         while (urlConnection == null){
         }
         AddData();
