@@ -115,13 +115,14 @@ public class JournalActivity extends AppCompatActivity {
             @Override
             protected Void doInBackground( Void... voids ) {
                 OkHttpClient client = new OkHttpClient();
-
+                String urlToServer = "https://b2kq977qb3.execute-api.us-west-2.amazonaws.com/prod/journal?email="+AppHelper.getCurrUser();
                 MediaType mediaType = MediaType.parse("application/octet-stream");
                 RequestBody body = RequestBody.create(mediaType, "{\n  \"email\": \"sds\", \"dateworkout\": \"awdw\", \"noofwork\": 2, \"bodypart\": \"chest\", \"exercise\": \"sfef\"\n}");
                 Request request = new Request.Builder()
-                        .url("https://b2kq977qb3.execute-api.us-west-2.amazonaws.com/prod/journal?email=khoi1")
+                        .url(urlToServer)
                         .get()
-                        .addHeader("authorization", "eyJraWQiOiJ0TmxcLzJneDJNVlNQbmNFTUxFVGNCNVpIaXlIcEI0c0dUcmViQjdmVUE0UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJlMDJiZDllMC00YzZlLTRhNzUtOWNjNi0zYjllNGE4ZWRhMTQiLCJhdWQiOiI2bmJtbTc3YzBpaDE2bnNxODQ4ZXBxMmRhYyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjQwNzA1Y2E2LWQ4YzItMTFlNy1iNjRhLTc5MWMyYTVkZjdmNCIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTEyMzcxNDQ3LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl8wSXAyeEFERUUiLCJjb2duaXRvOnVzZXJuYW1lIjoia2hvaTEiLCJleHAiOjE1MTIzNzUwNDcsImlhdCI6MTUxMjM3MTQ0NywiZW1haWwiOiJraG9pMDV0MkBnbWFpbC5jb20ifQ.Rzl3Eiu4bH5ujppqZX86Hi3rFMRqPTaRQd6JfCeJtvAqf78XWyvneI6SnG2z2EPLja5owIO0pBZgYaLBZS5zU_a0bnkO64dgIaRvoGRDtOv8R7iC_fO1oNwkmFm1cKTli0lwMVb77rSb3H3-RVmoc-KAE2HHZSWtGIozgGVU-yzJyaSKTlK0PYjGhnr5a4zuYOrIezdgzMwT7Jig-oswvvtt3fElP-Y_QZuYXrhYOGGAAAWHdqp-AljFAR6xNWVyHfXhXcNaSfkWKRa0v9SQDmoZtcSylRumGLemz3hP-a_qwEI0iioFEgmXawWfHSfOeLUBme_MPYnrBwnoXo_PCQ")
+                        .addHeader("authorization", MainActivity.idToken)
+                        //.addHeader("authorization", "eyJraWQiOiJ0TmxcLzJneDJNVlNQbmNFTUxFVGNCNVpIaXlIcEI0c0dUcmViQjdmVUE0UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJlMDJiZDllMC00YzZlLTRhNzUtOWNjNi0zYjllNGE4ZWRhMTQiLCJhdWQiOiI2bmJtbTc3YzBpaDE2bnNxODQ4ZXBxMmRhYyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJldmVudF9pZCI6IjQwNzA1Y2E2LWQ4YzItMTFlNy1iNjRhLTc5MWMyYTVkZjdmNCIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNTEyMzcxNDQ3LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl8wSXAyeEFERUUiLCJjb2duaXRvOnVzZXJuYW1lIjoia2hvaTEiLCJleHAiOjE1MTIzNzUwNDcsImlhdCI6MTUxMjM3MTQ0NywiZW1haWwiOiJraG9pMDV0MkBnbWFpbC5jb20ifQ.Rzl3Eiu4bH5ujppqZX86Hi3rFMRqPTaRQd6JfCeJtvAqf78XWyvneI6SnG2z2EPLja5owIO0pBZgYaLBZS5zU_a0bnkO64dgIaRvoGRDtOv8R7iC_fO1oNwkmFm1cKTli0lwMVb77rSb3H3-RVmoc-KAE2HHZSWtGIozgGVU-yzJyaSKTlK0PYjGhnr5a4zuYOrIezdgzMwT7Jig-oswvvtt3fElP-Y_QZuYXrhYOGGAAAWHdqp-AljFAR6xNWVyHfXhXcNaSfkWKRa0v9SQDmoZtcSylRumGLemz3hP-a_qwEI0iioFEgmXawWfHSfOeLUBme_MPYnrBwnoXo_PCQ")
                         .addHeader("cache-control", "no-cache")
                         .addHeader("postman-token", "023bec72-5f16-a1d1-2d51-76a1ea431dff")
                         .build();

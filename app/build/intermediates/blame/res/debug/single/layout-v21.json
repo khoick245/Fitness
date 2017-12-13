@@ -1,18 +1,18 @@
 [
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/beb4c7c64a3b576b555f59d089611ae32a86e37f/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/beb4c7c64a3b576b555f59d089611ae32a86e37f/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/beb4c7c64a3b576b555f59d089611ae32a86e37f/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/layout-v21/notification_action.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/beb4c7c64a3b576b555f59d089611ae32a86e37f/output/res/layout-v21/notification_action.xml"
     }
 ]

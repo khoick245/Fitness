@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
     // User Details
     private String username;
     private String password;
+    public static String idToken;
 
     // Mandatory overrides first
     @Override
@@ -133,7 +134,6 @@ public class MainActivity extends AppCompatActivity {
             public void onSuccess(LoginResult loginResult) {
                 Toast.makeText(MainActivity.this, "SUCCESS", Toast.LENGTH_SHORT).show();
                 String token = AccessToken.getCurrentAccessToken().getToken();
-
                 startActivity(new Intent(MainActivity.this, BodyActivity.class));
                 //new FacebookCognitoSync().execute(token);//Cognito integration that works as an async task in the background
             }
@@ -541,7 +541,7 @@ public class MainActivity extends AppCompatActivity {
         public void onSuccess(CognitoUserSession cognitoUserSession, CognitoDevice device) {
             Log.e(TAG, "Auth Success");
             AppHelper.setCurrSession(cognitoUserSession);
-            String idToken = cognitoUserSession.getIdToken().getJWTToken();
+            idToken = cognitoUserSession.getIdToken().getJWTToken();
             AppHelper.newDevice(device);
             closeWaitDialog();
             launchUser();

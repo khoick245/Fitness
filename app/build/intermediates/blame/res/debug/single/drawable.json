@@ -5,67 +5,71 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_vector_test.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_vector_test.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_switch_thumb_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ic_voice_search_api_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/3cb910c628293e30859a8cefec6ebc881dcda566/output/res/drawable/com_facebook_button_login_silver_background.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/ic_account_circle_white1.png",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/ic_account_circle_white1.png"
     },
     {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/a00adc401405d17105292142fb7b287da9d80cff/output/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable/com_facebook_auth_dialog_background.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/413e2dce63e7b440218c9250a93be08e6531e04e/output/res/drawable/com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/button_selector.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/button_selector.xml"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_list_selector_holo_light.xml"
-    },
-    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/notification_icon_background.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/beb4c7c64a3b576b555f59d089611ae32a86e37f/output/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/legs.jpg",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/legs.jpg"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ic_menu_overflow_material.xml"
-    },
-    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_tab_indicator_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/head_image.jpg",
-        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/head_image.jpg"
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/side_nav_bar.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/side_nav_bar.xml"
     },
     {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/head_image.jpg",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/head_image.jpg"
+    },
+    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/right_arrow.png",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/right_arrow.png"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/check_box_selector.xml",
@@ -73,11 +77,7 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_item_background_holo_dark.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/eye.png",
@@ -97,7 +97,7 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ratingbar_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/text_border_error.xml",
@@ -105,7 +105,7 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/text_border_selected.xml",
@@ -121,23 +121,27 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_btn_radio_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/413e2dce63e7b440218c9250a93be08e6531e04e/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable/com_facebook_button_like_background.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/413e2dce63e7b440218c9250a93be08e6531e04e/output/res/drawable/com_facebook_button_like_background.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/notification_tile_bg.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/beb4c7c64a3b576b555f59d089611ae32a86e37f/output/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/button_pressed.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/button_pressed.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/9c98c39d682404cdfa5c6d15d540bca02f36a684/output/res/drawable/abc_dialog_material_background_light.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/left_arrow.png",
@@ -145,27 +149,27 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_list_selector_holo_dark.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/9c98c39d682404cdfa5c6d15d540bca02f36a684/output/res/drawable/abc_dialog_material_background_dark.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/413e2dce63e7b440218c9250a93be08e6531e04e/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_background.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/3cb910c628293e30859a8cefec6ebc881dcda566/output/res/drawable/com_facebook_button_login_background.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/a00adc401405d17105292142fb7b287da9d80cff/output/res/drawable/com_facebook_button_login_background.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable/com_facebook_button_background.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/413e2dce63e7b440218c9250a93be08e6531e04e/output/res/drawable/com_facebook_button_background.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/checked.png",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/checked.png"
-    },
-    {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/not_checked.png",
@@ -176,6 +180,14 @@
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/button_success.xml"
     },
     {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_light.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/body2.png",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/body2.png"
     },
@@ -184,16 +196,16 @@
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/fitnesslogo1.png"
     },
     {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/fitnesslogo.png",
-        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/fitnesslogo.png"
-    },
-    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/ic_menu_black.xml",
         "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/ic_menu_black.xml"
     },
     {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/fitnesslogo.png",
+        "source": "/Users/khoinguyen/Documents/492B/Fitness/app/src/main/res/drawable/fitnesslogo.png"
+    },
+    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_dialog_material_background.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/text_border_selector.xml",
@@ -201,7 +213,7 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/button_selected.xml",
@@ -213,39 +225,39 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ic_go_search_api_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_seekbar_thumb_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/notification_bg_low.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/beb4c7c64a3b576b555f59d089611ae32a86e37f/output/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable/com_facebook_favicon_blue.xml"
-    },
-    {
-        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/3cb910c628293e30859a8cefec6ebc881dcda566/output/res/drawable/com_facebook_button_login_logo.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/413e2dce63e7b440218c9250a93be08e6531e04e/output/res/drawable/com_facebook_favicon_blue.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/khoinguyen/.android/build-cache/2cf49270eddb55f4c5979b2fb32f4eee0c573386/output/res/drawable/design_snackbar_background.xml"
     },
     {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/a00adc401405d17105292142fb7b287da9d80cff/output/res/drawable/com_facebook_button_login_logo.xml"
+    },
+    {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_item_background_holo_light.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_cab_background_internal_bg.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/notification_bg.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/beb4c7c64a3b576b555f59d089611ae32a86e37f/output/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/ic_cancel_black.xml",
@@ -253,7 +265,7 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ic_ab_back_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/fitnesslogo2.png",
@@ -265,23 +277,23 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ratingbar_small_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_textfield_search_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ic_clear_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/04e0949e9f37cffa9a2484b7a501df207e145f03/output/res/drawable/com_facebook_button_icon.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/413e2dce63e7b440218c9250a93be08e6531e04e/output/res/drawable/com_facebook_button_icon.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/button_default.xml",
@@ -289,19 +301,19 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_cab_background_top_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_btn_check_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_btn_check_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_text_cursor_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/text_border_default.xml",
@@ -313,14 +325,22 @@
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_seekbar_track_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/tooltip_frame_dark.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_ratingbar_indicator_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/khoinguyen/.android/build-cache/9c98c39d682404cdfa5c6d15d540bca02f36a684/output/res/drawable/abc_ratingbar_full_material.xml"
     },
     {
         "merged": "/Users/khoinguyen/Documents/492B/Fitness/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/khoinguyen/.android/build-cache/13707bbb31bfc9e899cde7198c12a3f4369690a0/output/res/drawable/abc_btn_borderless_material.xml"
+        "source": "/Users/khoinguyen/.android/build-cache/19f2d8b21731d652bd789bfed86ea9a51c2cf4a1/output/res/drawable/abc_btn_borderless_material.xml"
     }
 ]
